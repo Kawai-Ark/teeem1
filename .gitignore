@@ -1,0 +1,12 @@
+Kawai01/.vs
+Kawai01/*.csproj
+Kawai01/Library
+Kawai01/Temp/
+Kawai01/Library/
+Kawai01/Packages/
+Kawai01/obj/
+Kawai01/*.unitypackage
+Kawai01/*.sln
+Kawai01/UnityPackageManager
+Kawai01/*.collabignore
+Kawai01/AssetBundles/

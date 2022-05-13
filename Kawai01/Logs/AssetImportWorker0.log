@@ -122,3 +122,39 @@ Received Import Request.
   path: Assets/Hashitani/PlayerC&GK/Player.cs
   artifactKey: Guid(4b5062ff292d27e40a9fa96e1b8ed1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Hashitani/PlayerC&GK/Player.cs using Guid(4b5062ff292d27e40a9fa96e1b8ed1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77004b3c4c3c1c0ec13022bd876adef3') in 0.006764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 260.613162 seconds.
+  path: Assets/Hashitani/PlayerC&GK/R_Player.prefab
+  artifactKey: Guid(7bd389c3039670741be9b1041ddf1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/R_Player.prefab using Guid(7bd389c3039670741be9b1041ddf1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6a188c38e842a25f5931b395550682') in 0.005669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 382.803292 seconds.
+  path: Assets/Hashitani/PlayerC&GK/GameKeeper.prefab
+  artifactKey: Guid(b1af3d9bb3931964cbad8f91106aca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/GameKeeper.prefab using Guid(b1af3d9bb3931964cbad8f91106aca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c810689bb62cbc6e87eb2964a7add6') in 0.005231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.710283 seconds.
+  path: Assets/Hashitani/PlayerC&GK/GameKeeper.cs
+  artifactKey: Guid(3c677cd18d6b2564c86467cab911a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/GameKeeper.cs using Guid(3c677cd18d6b2564c86467cab911a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f509a0a21bf57c7b56688654de66753') in 0.002361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.536944 seconds.
+  path: Assets/Hashitani/PlayerC&GK/SoloMode.cs
+  artifactKey: Guid(b50114386cb97ad40bb7b7e913de50c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/SoloMode.cs using Guid(b50114386cb97ad40bb7b7e913de50c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3215009ff269deee1477c0c7b36e0330') in 0.004696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.360855 seconds.
+  path: Assets/Hashitani/PlayerC&GK/TrapG.cs
+  artifactKey: Guid(b52b49d24a3ea2a4588d1e518f88ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/TrapG.cs using Guid(b52b49d24a3ea2a4588d1e518f88ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cfab43a0a6270b9699d307d5e41c58') in 0.003439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.376487 seconds.
+  path: Assets/Hashitani/PlayerC&GK/R_Player.prefab
+  artifactKey: Guid(7bd389c3039670741be9b1041ddf1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/R_Player.prefab using Guid(7bd389c3039670741be9b1041ddf1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221613cca536700bde8f19776b95e76f') in 0.004831 seconds 

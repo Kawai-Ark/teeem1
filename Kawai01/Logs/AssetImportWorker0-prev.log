@@ -15,11 +15,11 @@ C:/GCOC2_Unity/Team1/Kawai01
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56421
+56563
 Successfully changed project path to: C:/GCOC2_Unity/Team1/Kawai01
 C:/GCOC2_Unity/Team1/Kawai01
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 77.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.4f1 (4cd64a618c1b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,61 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002478 seconds.
+Registered in 0.002622 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.82 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 83.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
+- Completed reload, in  1.347 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004456 seconds.
+Registered in 0.004681 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 78.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
+- Completed reload, in  1.034 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.9 MB.
-System memory in use after: 98.1 MB.
+Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.6 MB.
+System memory in use after: 108.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3116.
-Total: 1.766300 ms (FindLiveObjects: 0.203800 ms CreateObjectMapping: 0.104400 ms MarkObjects: 1.411900 ms  DeleteObjects: 0.045300 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3415.
+Total: 2.255600 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.195900 ms MarkObjects: 1.795900 ms  DeleteObjects: 0.049900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Hashitani
-  artifactKey: Guid(f84f8253b448a7340a623d80789df20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hashitani using Guid(f84f8253b448a7340a623d80789df20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f00a2dd3428155474add4c09cc1783b') in 0.004991 seconds 
+  path: Assets/Hashitani/actions.cs
+  artifactKey: Guid(6b813e31241e8604facb1731c368518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/actions.cs using Guid(6b813e31241e8604facb1731c368518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe06f3a417d7207c98a2341a6a8738c') in 0.037660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.617664 seconds.
+  path: Assets/Hashitani/actions.cs
+  artifactKey: Guid(6b813e31241e8604facb1731c368518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/actions.cs using Guid(6b813e31241e8604facb1731c368518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4f3be056341c649ced90e8c68081c2') in 0.002314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005949 seconds.
+  path: Assets/Hashitani/actions.inputactions
+  artifactKey: Guid(96a5d28950dcc4f4dba144637ec0a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/actions.inputactions using Guid(96a5d28950dcc4f4dba144637ec0a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90812c82baa3f637ec4d3c2314fc19e2') in 0.018386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Hashitani/InputSystem.inputsettings.asset
+  artifactKey: Guid(a8d1539d5b0a5ba4087f46a81c6755d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/InputSystem.inputsettings.asset using Guid(a8d1539d5b0a5ba4087f46a81c6755d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb2925711d83840149546668aaf326b') in 0.005690 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004362 seconds.
+Registered in 0.004568 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.729 seconds
+- Completed reload, in  0.936 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.7 MB.
-System memory in use after: 106.9 MB.
+Unloading 2956 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.9 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3412.
-Total: 2.326800 ms (FindLiveObjects: 0.247000 ms CreateObjectMapping: 0.132000 ms MarkObjects: 1.927100 ms  DeleteObjects: 0.019900 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3418.
+Total: 2.053600 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.118600 ms MarkObjects: 1.729600 ms  DeleteObjects: 0.016500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 8.009881 seconds.
+  path: Assets/Hashitani/InputSet
+  artifactKey: Guid(fd7aba5db86dd3a44a1cd455a11da464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/InputSet using Guid(fd7aba5db86dd3a44a1cd455a11da464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b78acaf25634f2253b555611cc870a4') in 0.009211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.738775 seconds.
+  path: Assets/Hashitani/BaseFolder
+  artifactKey: Guid(a4c5a83cb3e111d459cece3b92d597a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/BaseFolder using Guid(a4c5a83cb3e111d459cece3b92d597a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715e769f4abea019e428a6820599894a') in 0.002592 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

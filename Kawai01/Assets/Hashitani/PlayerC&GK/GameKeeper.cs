@@ -45,6 +45,7 @@ public class GameKeeper : MonoBehaviour
                     PoseOn = false;
                     Player.PoseChance = true;
                 }
+                
             }
         }
         haba = line;
@@ -75,9 +76,21 @@ public class GameKeeper : MonoBehaviour
             }
         }
         else fastTime = true;
+
+        //トラップ処理
+        if(!PoseOn)TrapKeeper();
     }
     public void TrapKeeper()
     {
+        //トラップの一斉処理
+        GameObject[] Traps = GameObject.FindGameObjectsWithTag("Trap");
+        foreach(GameObject Trap in Traps)
+        {
+            //カウントを進める
+            Trap.GetComponent<TrapG>().TrapMoves();
+        }
+
+        //トラップの自動出現
         //Instantiate(Trap1);
     }
     public static int TempoGet(bool Timing,bool sousa)

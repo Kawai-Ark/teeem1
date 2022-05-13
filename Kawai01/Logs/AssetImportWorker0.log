@@ -122,3 +122,4 @@ Received Import Request.
   path: Assets/Hashitani/BaseFolder
   artifactKey: Guid(a4c5a83cb3e111d459cece3b92d597a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Hashitani/BaseFolder using Guid(a4c5a83cb3e111d459cece3b92d597a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715e769f4abea019e428a6820599894a') in 0.002592 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

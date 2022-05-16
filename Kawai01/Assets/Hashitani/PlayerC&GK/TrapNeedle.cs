@@ -4,28 +4,35 @@ using UnityEngine;
 
 public class TrapNeedle : MonoBehaviour
 {
+    public BoxCollider2D BC2;
     //針のトラップ
     void Start()
     {
-        
+        gameObject.GetComponent<TrapG>().Count = 4;
+        gameObject.GetComponent<TrapG>().over_time = 2;
+        gameObject.GetComponent<TrapG>().pre_active = false;
+        gameObject.GetComponent<TrapG>().Player_Hit_Destroy = false;
     }
 
+    void ActiveTrap()
+    {
+
+    }
+    //当たり判定はここ
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (gameObject.GetComponent<TrapG>().ActiveTrap &&
+            collision.gameObject.GetComponent<Player_R>().muteki_tempo == 0) 
+        {
+            //針が飛び出す
+            collision.gameObject.GetComponent<Player_R>().m_Life -= 2;
+            collision.gameObject.GetComponent<Player_R>().muteki_tempo = 3;
+            gameObject.GetComponent<TrapG>().Hit = true;
+        }
+    }
     // Update is called once per frame
     void LateUpdate()
     {
-        if(!gameObject.GetComponent<TrapG>().TrapOn&&
-            gameObject.GetComponent<TrapG>().Count == 0)
-        {
-
-        }
-        else if (gameObject.GetComponent<TrapG>().TrapOn)
-        {
-            //針が飛び出す
-            gameObject.GetComponent<TrapG>().TrapOn = false;
-        }
-        else
-        {
-            //何もしない
-        }
+        
     }
 }

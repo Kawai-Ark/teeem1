@@ -30,20 +30,20 @@ public class GameKeeper : MonoBehaviour
     {
         //ゲームが終了すればロビーやタイトルに戻される
         Times += Time.deltaTime;
-        if (!Player.PoseChance)
+        if (!Player_R.PoseChance)
         {
             if (!PoseOn)
             {
                 PoseOn = true;
                 ReCount = 4.0f;
-                Player.PoseChance = true;
+                Player_R.PoseChance = true;
             }
             else
             {
                 if (ReCount == 0.0f)
                 {
                     PoseOn = false;
-                    Player.PoseChance = true;
+                    Player_R.PoseChance = true;
                 }
                 
             }
@@ -72,7 +72,7 @@ public class GameKeeper : MonoBehaviour
             if (fastTime)
             {
                 fastTime = false;
-                if (ReCount > 0.0f && !Player.PoseChance) ReCount -= 1.0f;
+                if (ReCount > 0.0f && !Player_R.PoseChance) ReCount -= 1.0f;
             }
         }
         else fastTime = true;
@@ -83,13 +83,22 @@ public class GameKeeper : MonoBehaviour
     public void TrapKeeper()
     {
         //トラップの一斉処理
-        GameObject[] Traps = GameObject.FindGameObjectsWithTag("Trap");
-        foreach(GameObject Trap in Traps)
+        if (fastTime)
         {
-            //カウントを進める
-            Trap.GetComponent<TrapG>().TrapMoves();
+            GameObject[] Players = GameObject.FindGameObjectsWithTag("Player");
+            foreach (GameObject tPlayer in Players)
+            {
+                //カウントを進める
+                if (tPlayer.GetComponent<Player_R>().muteki_tempo > 0)
+                    tPlayer.GetComponent<Player_R>().muteki_tempo -= 1;
+            }
+            GameObject[] Traps = GameObject.FindGameObjectsWithTag("Trap");
+            foreach (GameObject Trap in Traps)
+            {
+                //カウントを進める
+                Trap.GetComponent<TrapG>().TrapMoves();
+            }
         }
-
         //トラップの自動出現
         //Instantiate(Trap1);
     }

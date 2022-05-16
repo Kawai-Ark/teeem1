@@ -19,8 +19,8 @@ public class SoloMode : MonoBehaviour
     {
         //トラップの設置
         GameObject[] Characters = GameObject.FindGameObjectsWithTag("Player");
-        if (Characters[0].GetComponent<Player>().m_Life <= 0)
-            Characters[0].GetComponent<Player>().Keep_Life = false;
-        Characters[0].GetComponent<Player>().Sousa();
+        if (Characters[0].GetComponent<Player_R>().m_Life <= 0)
+            Characters[0].GetComponent<Player_R>().Keep_Life = false;
+        Characters[0].GetComponent<Player_R>().Sousa();
     }
 }

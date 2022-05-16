@@ -15,23 +15,23 @@ public class PvP_Mode : MonoBehaviour
     {
         //どちらが勝ったか
         GameObject[] Characters = GameObject.FindGameObjectsWithTag("Player");
-        if (Characters[0].GetComponent<Player>().m_Life <= 0)
-            Characters[0].GetComponent<Player>().Keep_Life = false;
-        if (Characters[1].GetComponent<Player>().m_Life <= 0)
-            Characters[1].GetComponent<Player>().Keep_Life = false;
-        Characters[0].GetComponent<Player>().Sousa();
-        Characters[1].GetComponent<Player>().Sousa();
+        if (Characters[0].GetComponent<Player_R>().m_Life <= 0)
+            Characters[0].GetComponent<Player_R>().Keep_Life = false;
+        if (Characters[1].GetComponent<Player_R>().m_Life <= 0)
+            Characters[1].GetComponent<Player_R>().Keep_Life = false;
+        Characters[0].GetComponent<Player_R>().Sousa();
+        Characters[1].GetComponent<Player_R>().Sousa();
 
-        if (!Characters[0].GetComponent<Player>().Keep_Life&&
-            !Characters[1].GetComponent<Player>().Keep_Life)
+        if (!Characters[0].GetComponent<Player_R>().Keep_Life&&
+            !Characters[1].GetComponent<Player_R>().Keep_Life)
         {
             //両方が同時に倒れた場合
         }
-        else if (!Characters[0].GetComponent<Player>().Keep_Life)
+        else if (!Characters[0].GetComponent<Player_R>().Keep_Life)
         {
             //プレイヤー1が倒れた場合
         }
-        else if (!Characters[1].GetComponent<Player>().Keep_Life)
+        else if (!Characters[1].GetComponent<Player_R>().Keep_Life)
         {
             //プレイヤー2が倒れた場合
         }

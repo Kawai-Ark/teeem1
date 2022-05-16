@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player : MonoBehaviour
+public class Player_R : MonoBehaviour
 {
     [Header("•¨—ƒŠƒ“ƒN")]
     public Rigidbody2D m_Rigidbody;
@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     public int m_old_Life = 12;
     public bool kisikaisei = false;
     public bool Keep_Life = true;
+    public int muteki_tempo = 3;
     //‰ŠúÀ•W
 
     void Start()

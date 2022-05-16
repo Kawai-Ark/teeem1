@@ -15,11 +15,11 @@ C:/GCOC2_Unity/Team1/Kawai01
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56563
+52311
 Successfully changed project path to: C:/GCOC2_Unity/Team1/Kawai01
 C:/GCOC2_Unity/Team1/Kawai01
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 77.98 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 79.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.4f1 (4cd64a618c1b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,344 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002622 seconds.
+Registered in 0.002574 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 81.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.347 seconds
+- Completed reload, in  1.350 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004681 seconds.
+Registered in 0.004850 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 80.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
+- Completed reload, in  1.023 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 108.6 MB.
 System memory in use after: 108.8 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3415.
-Total: 2.255600 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.195900 ms MarkObjects: 1.795900 ms  DeleteObjects: 0.049900 ms)
+Total: 2.213000 ms (FindLiveObjects: 0.215200 ms CreateObjectMapping: 0.111200 ms MarkObjects: 1.835300 ms  DeleteObjects: 0.050500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Hashitani/actions.cs
-  artifactKey: Guid(6b813e31241e8604facb1731c368518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hashitani/actions.cs using Guid(6b813e31241e8604facb1731c368518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe06f3a417d7207c98a2341a6a8738c') in 0.037660 seconds 
+  path: Assets/Kawai/BGM
+  artifactKey: Guid(8a424846faceb20449ccec3379d6ec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/BGM using Guid(8a424846faceb20449ccec3379d6ec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4889e33a49e67fe6eab909524bb2712b') in 0.005318 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.617664 seconds.
-  path: Assets/Hashitani/actions.cs
-  artifactKey: Guid(6b813e31241e8604facb1731c368518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hashitani/actions.cs using Guid(6b813e31241e8604facb1731c368518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4f3be056341c649ced90e8c68081c2') in 0.002314 seconds 
+  Time since last request: 0.000297 seconds.
+  path: Assets/Kawai
+  artifactKey: Guid(f5bd4084679a61e41855c8e06a1e398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai using Guid(f5bd4084679a61e41855c8e06a1e398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe501dba2424b2072cc8c99268dc1677') in 0.002542 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005949 seconds.
-  path: Assets/Hashitani/actions.inputactions
-  artifactKey: Guid(96a5d28950dcc4f4dba144637ec0a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hashitani/actions.inputactions using Guid(96a5d28950dcc4f4dba144637ec0a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90812c82baa3f637ec4d3c2314fc19e2') in 0.018386 seconds 
+  Time since last request: 0.000306 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8dd8f562070a174458396a11dca3d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8dd8f562070a174458396a11dca3d47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca0a193fcd58d77d504d1278bf95d17') in 0.002519 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Hashitani/InputSystem.inputsettings.asset
-  artifactKey: Guid(a8d1539d5b0a5ba4087f46a81c6755d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hashitani/InputSystem.inputsettings.asset using Guid(a8d1539d5b0a5ba4087f46a81c6755d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb2925711d83840149546668aaf326b') in 0.005690 seconds 
+  Time since last request: 21.746933 seconds.
+  path: Assets/Hashitani/PlayerC&GK
+  artifactKey: Guid(4b0517c0068e09a4abe112b1ab36a7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK using Guid(4b0517c0068e09a4abe112b1ab36a7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7eeb165fe09b90a7f3a0daec9299647') in 0.004635 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004568 seconds.
+Registered in 0.004454 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
+- Completed reload, in  0.903 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2956 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.7 MB.
-System memory in use after: 108.9 MB.
+Unloading 2961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.8 MB.
+System memory in use after: 109.0 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3418.
-Total: 2.053600 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.118600 ms MarkObjects: 1.729600 ms  DeleteObjects: 0.016500 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3423.
+Total: 2.109600 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.121100 ms MarkObjects: 1.782700 ms  DeleteObjects: 0.016600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.009881 seconds.
-  path: Assets/Hashitani/InputSet
-  artifactKey: Guid(fd7aba5db86dd3a44a1cd455a11da464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hashitani/InputSet using Guid(fd7aba5db86dd3a44a1cd455a11da464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b78acaf25634f2253b555611cc870a4') in 0.009211 seconds 
+  Time since last request: 88.274631 seconds.
+  path: Assets/Hashitani/PlayerC&GK/TrapA.prefab
+  artifactKey: Guid(ba3c6c75244808042a98d078f2cecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/TrapA.prefab using Guid(ba3c6c75244808042a98d078f2cecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b72409eb57fcd61259747f2170828e3') in 0.044536 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.738775 seconds.
-  path: Assets/Hashitani/BaseFolder
-  artifactKey: Guid(a4c5a83cb3e111d459cece3b92d597a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hashitani/BaseFolder using Guid(a4c5a83cb3e111d459cece3b92d597a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715e769f4abea019e428a6820599894a') in 0.002592 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 3.846133 seconds.
+  path: Assets/Hashitani/PlayerC&GK/Player.cs
+  artifactKey: Guid(4b5062ff292d27e40a9fa96e1b8ed1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/Player.cs using Guid(4b5062ff292d27e40a9fa96e1b8ed1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77004b3c4c3c1c0ec13022bd876adef3') in 0.006764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 260.613162 seconds.
+  path: Assets/Hashitani/PlayerC&GK/R_Player.prefab
+  artifactKey: Guid(7bd389c3039670741be9b1041ddf1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/R_Player.prefab using Guid(7bd389c3039670741be9b1041ddf1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6a188c38e842a25f5931b395550682') in 0.005669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 382.803292 seconds.
+  path: Assets/Hashitani/PlayerC&GK/GameKeeper.prefab
+  artifactKey: Guid(b1af3d9bb3931964cbad8f91106aca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/GameKeeper.prefab using Guid(b1af3d9bb3931964cbad8f91106aca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c810689bb62cbc6e87eb2964a7add6') in 0.005231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.710283 seconds.
+  path: Assets/Hashitani/PlayerC&GK/GameKeeper.cs
+  artifactKey: Guid(3c677cd18d6b2564c86467cab911a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/GameKeeper.cs using Guid(3c677cd18d6b2564c86467cab911a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f509a0a21bf57c7b56688654de66753') in 0.002361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.536944 seconds.
+  path: Assets/Hashitani/PlayerC&GK/SoloMode.cs
+  artifactKey: Guid(b50114386cb97ad40bb7b7e913de50c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/SoloMode.cs using Guid(b50114386cb97ad40bb7b7e913de50c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3215009ff269deee1477c0c7b36e0330') in 0.004696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.360855 seconds.
+  path: Assets/Hashitani/PlayerC&GK/TrapG.cs
+  artifactKey: Guid(b52b49d24a3ea2a4588d1e518f88ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/TrapG.cs using Guid(b52b49d24a3ea2a4588d1e518f88ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cfab43a0a6270b9699d307d5e41c58') in 0.003439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.376487 seconds.
+  path: Assets/Hashitani/PlayerC&GK/R_Player.prefab
+  artifactKey: Guid(7bd389c3039670741be9b1041ddf1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/R_Player.prefab using Guid(7bd389c3039670741be9b1041ddf1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221613cca536700bde8f19776b95e76f') in 0.004831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 166.126218 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d1281ac935bb11a1b165318818ebc3') in 0.003058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.799111 seconds.
+  path: Assets/Scenes/KusaStage.unity
+  artifactKey: Guid(8dfe3171b37582144b3a445722b3826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KusaStage.unity using Guid(8dfe3171b37582144b3a445722b3826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc029526ac385ff7bbd0ce869e8121f') in 0.002991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.143308 seconds.
+  path: Assets/Scenes/Stage.unity
+  artifactKey: Guid(d567542f9abbf1b49942318cd5b76bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage.unity using Guid(d567542f9abbf1b49942318cd5b76bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780999ffe88640ac2fbe255ba4ea3e3a') in 0.003087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 441.468929 seconds.
+  path: Assets/Hashitani/PlayerC&GK/PvP_Mode.cs
+  artifactKey: Guid(8a43400f92c24d742974f5e1e2713dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/PvP_Mode.cs using Guid(8a43400f92c24d742974f5e1e2713dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740137b805282e70092e7f2e96ed7eeb') in 0.002972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1044.568717 seconds.
+  path: Assets/Hashitani/PlayerC&GK/TrapNeedle.cs
+  artifactKey: Guid(0f7d8dac199100a49b3e7b0a68d72931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/TrapNeedle.cs using Guid(0f7d8dac199100a49b3e7b0a68d72931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d11578a5da232ac7ccb34ef9e63372') in 0.004444 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.9 MB.
+System memory in use after: 109.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3427.
+Total: 2.074400 ms (FindLiveObjects: 0.213500 ms CreateObjectMapping: 0.130900 ms MarkObjects: 1.714100 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.9 MB.
+System memory in use after: 109.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3430.
+Total: 2.062200 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.099100 ms MarkObjects: 1.752500 ms  DeleteObjects: 0.012400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.086464 seconds.
+  path: Assets/Hashitani/PlayerC&GK/TrapNeedle.cs
+  artifactKey: Guid(0f7d8dac199100a49b3e7b0a68d72931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/TrapNeedle.cs using Guid(0f7d8dac199100a49b3e7b0a68d72931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d192e742d031a6698d05ff4e6f06c85') in 0.005030 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.9 MB.
+System memory in use after: 109.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3433.
+Total: 2.107000 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.125100 ms MarkObjects: 1.754100 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 269.674517 seconds.
+  path: Assets/Hashitani/PlayerC&GK/TrapA.prefab
+  artifactKey: Guid(ba3c6c75244808042a98d078f2cecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/TrapA.prefab using Guid(ba3c6c75244808042a98d078f2cecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b011785289879aaa1cf0e7ec252d25a') in 0.025121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 238.392603 seconds.
+  path: Assets/Hashitani/PlayerC&GK/TrapA.prefab
+  artifactKey: Guid(ba3c6c75244808042a98d078f2cecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/TrapA.prefab using Guid(ba3c6c75244808042a98d078f2cecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4f7f39f6bf4b0ede40929fbb5c348d') in 0.005139 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.9 MB.
+System memory in use after: 109.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3436.
+Total: 2.064700 ms (FindLiveObjects: 0.192900 ms CreateObjectMapping: 0.117200 ms MarkObjects: 1.739700 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 738.461708 seconds.
+  path: Assets/Hashitani/PlayerC&GK/TrapG.cs
+  artifactKey: Guid(b52b49d24a3ea2a4588d1e518f88ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/TrapG.cs using Guid(b52b49d24a3ea2a4588d1e518f88ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7622eea4a0c6cdd7da6a7a13992af7ff') in 0.006411 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.9 MB.
+System memory in use after: 109.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3439.
+Total: 2.008900 ms (FindLiveObjects: 0.206700 ms CreateObjectMapping: 0.101700 ms MarkObjects: 1.687100 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.937658 seconds.
+  path: Assets/Hashitani/PlayerC&GK/GameKeeper.cs
+  artifactKey: Guid(3c677cd18d6b2564c86467cab911a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/GameKeeper.cs using Guid(3c677cd18d6b2564c86467cab911a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8dc7c381ee5f776d9624aa94b6f6b2') in 0.005154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.734412 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508250561588c9f3a53d13e6841a973e') in 0.012927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.491933 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efbe725eed01298755521c7f731dc7f') in 0.003998 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.0 MB.
+System memory in use after: 109.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3442.
+Total: 2.001400 ms (FindLiveObjects: 0.201700 ms CreateObjectMapping: 0.096700 ms MarkObjects: 1.688800 ms  DeleteObjects: 0.013600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.0 MB.
+System memory in use after: 109.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3445.
+Total: 2.181800 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.101500 ms MarkObjects: 1.861500 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1080.599613 seconds.
+  path: Assets/Hashitani/PlayerC&GK/TrapA.prefab
+  artifactKey: Guid(ba3c6c75244808042a98d078f2cecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/TrapA.prefab using Guid(ba3c6c75244808042a98d078f2cecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3baa6225c6e41b0f9f034eac4e279887') in 0.022981 seconds 

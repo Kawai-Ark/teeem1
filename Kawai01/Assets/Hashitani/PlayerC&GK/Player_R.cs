@@ -90,10 +90,6 @@ public class Player_R : MonoBehaviour
         }
     }
     //遅れて実行されるアップデート
-    private void LateUpdate()
-    {
-        //ここを使って当たり判定を処理する
-    }
     private void RePos()
     {
         //移動しすぎた場合に修正する

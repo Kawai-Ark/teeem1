@@ -65,12 +65,12 @@ public class Player_R : MonoBehaviour
             case 1:
                 Combo = 0;
                 if (sousa) Timing = false;
-                Debug.Log(Combo);
+                //Debug.Log(Combo);
                 break;
             case 2:
                 Combo += 1;
                 Timing = false;
-                Debug.Log(Combo);
+                //Debug.Log(Combo);
                 break;
             case 3:
                 Timing = true;

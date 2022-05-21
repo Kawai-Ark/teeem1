@@ -5,7 +5,6 @@ using UnityEngine;
 public class GameKeeper : MonoBehaviour
 {
     static public float BPM = 120.0f;
-    public float openBPM = 120.0f;
     static public float Times = 0.0f;
     public int Game_mode = 0;
     public static bool GameEnd = false;
@@ -24,7 +23,7 @@ public class GameKeeper : MonoBehaviour
     public GameObject[] Traps;
     void Start()
     {
-        BPM = openBPM;
+
     }
 
     private void Update()
@@ -53,6 +52,9 @@ public class GameKeeper : MonoBehaviour
         //トラップをランダムで設置する
         //トラップはプレイヤーからある程度離れた位置に出現
         //トラップに出現上限を付ける
+    }
+    private void LateUpdate()
+    {
         GameKeeper.ex_len = (60.0f / BPM) / haba;
         //最終処理
         switch (Game_mode)
@@ -76,6 +78,12 @@ public class GameKeeper : MonoBehaviour
             }
         }
         else fastTime = true;
+<<<<<<< HEAD
+
+        //トラップ処理
+        if(!PoseOn)TrapKeeper();
+=======
+>>>>>>> 2905b69a118ee49bbce7a4d6157c1aac3d839d9f
     }
     public void TrapKeeper()
     {

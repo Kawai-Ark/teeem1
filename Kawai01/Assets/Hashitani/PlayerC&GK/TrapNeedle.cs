@@ -21,18 +21,18 @@ public class TrapNeedle : MonoBehaviour
     //“–‚½‚è”»’è‚Í‚±‚±
     public void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (gameObject.GetComponent<TrapG>().ActiveTrap &&
+            collision.gameObject.GetComponent<Player_R>().muteki_tempo == 0) 
         {
-            if (gameObject.GetComponent<TrapG>().ActiveTrap &&
-            collision.gameObject.GetComponent<Player_R>().muteki_tempo == 0)
-            {
-                //ŠÔ‚É‚È‚é‚Æj‚ª”ò‚Ño‚·
-                collision.gameObject.GetComponent<Player_R>().m_Life -= 2;
-                collision.gameObject.GetComponent<Player_R>().muteki_tempo = 3;
-                gameObject.GetComponent<TrapG>().Hit = true;
-                //‚±‚±‚ç‚ÅUI‚É‰e‹¿‚ğ—^‚¦‚é
-            }
+            //j‚ª”ò‚Ño‚·
+            collision.gameObject.GetComponent<Player_R>().m_Life -= 2;
+            collision.gameObject.GetComponent<Player_R>().muteki_tempo = 3;
+            gameObject.GetComponent<TrapG>().Hit = true;
         }
     }
     // Update is called once per frame
+    void LateUpdate()
+    {
+        
+    }
 }

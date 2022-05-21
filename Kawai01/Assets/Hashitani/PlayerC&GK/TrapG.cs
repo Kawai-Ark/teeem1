@@ -13,7 +13,7 @@ public class TrapG : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //gameObject.transform.parent = GameObject.FindGameObjectWithTag("GameKeeper").transform;
+        gameObject.transform.parent = GameObject.FindGameObjectWithTag("GameKeeper").transform;
     }
 
     // Update is called once per frame

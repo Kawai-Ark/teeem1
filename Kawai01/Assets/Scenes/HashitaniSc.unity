@@ -214,27 +214,19 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3524155223486885134, guid: b1af3d9bb3931964cbad8f91106aca6b, type: 3}
-      propertyPath: CostLimit
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524155223486885134, guid: b1af3d9bb3931964cbad8f91106aca6b, type: 3}
-      propertyPath: Traps.Array.size
+      propertyPath: SetTraps.Array.size
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3524155223486885134, guid: b1af3d9bb3931964cbad8f91106aca6b, type: 3}
-      propertyPath: Traps.Array.data[0]
-      value: 
-      objectReference: {fileID: 7000261358688351838, guid: ba3c6c75244808042a98d078f2cecefd, type: 3}
-    - target: {fileID: 3524155223486885134, guid: b1af3d9bb3931964cbad8f91106aca6b, type: 3}
-      propertyPath: Traps.Array.data[1]
+      propertyPath: SetTraps.Array.data[1]
       value: 
       objectReference: {fileID: 4540657220682833431, guid: 6e750bb2c5cc46145a5156a5172026b2, type: 3}
     - target: {fileID: 3524155223486885134, guid: b1af3d9bb3931964cbad8f91106aca6b, type: 3}
-      propertyPath: Traps.Array.data[2]
+      propertyPath: SetTraps.Array.data[2]
       value: 
       objectReference: {fileID: 8314132650474395863, guid: 3aa27c05ffc1e5b4a8bf4d5c69c7a121, type: 3}
     - target: {fileID: 3524155223486885134, guid: b1af3d9bb3931964cbad8f91106aca6b, type: 3}
-      propertyPath: Traps.Array.data[3]
+      propertyPath: SetTraps.Array.data[3]
       value: 
       objectReference: {fileID: 1815897645075469807, guid: 018681d69e1a3214c8899f5bfa63279b, type: 3}
     - target: {fileID: 3524155223486885135, guid: b1af3d9bb3931964cbad8f91106aca6b, type: 3}

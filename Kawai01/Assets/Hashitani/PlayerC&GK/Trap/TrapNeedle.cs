@@ -19,15 +19,18 @@ public class TrapNeedle : MonoBehaviour
 
     }
     //“–‚½‚è”»’è‚Í‚±‚±
-    public void OnCollisionEnter(Collision collision)
+    public void OnTriggerEnter2D(Collider2D collider)
     {
-        if (gameObject.GetComponent<TrapG>().ActiveTrap &&
-            collision.gameObject.GetComponent<Player_R>().muteki_tempo == 0) 
+        if (collider.gameObject.CompareTag("Player"))
         {
-            //j‚ª”ò‚Ño‚·
-            collision.gameObject.GetComponent<Player_R>().m_Life -= 2;
-            collision.gameObject.GetComponent<Player_R>().muteki_tempo = 3;
-            gameObject.GetComponent<TrapG>().Hit = true;
+            if (gameObject.GetComponent<TrapG>().ActiveTrap &&
+            collider.gameObject.GetComponent<Player_R>().muteki_tempo == 0)
+            {
+                //j‚ª”ò‚Ño‚·
+                collider.gameObject.GetComponent<Player_R>().m_Life -= 2;
+                collider.gameObject.GetComponent<Player_R>().muteki_tempo = 3;
+                gameObject.GetComponent<TrapG>().Hit = true;
+            }
         }
     }
     // Update is called once per frame

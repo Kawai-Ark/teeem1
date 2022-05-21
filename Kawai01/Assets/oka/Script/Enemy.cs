@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        scoreob = GameObject.Find("GameObject");
+        scoreob = GameObject.Find("ScoreText");
     }
 
     void Update()

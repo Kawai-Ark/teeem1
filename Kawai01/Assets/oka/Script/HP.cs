@@ -9,6 +9,7 @@ public class HP : MonoBehaviour
 
     private Player player;
     
+     
 
     void Start()
     {

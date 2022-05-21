@@ -8,27 +8,28 @@ public class TrapNeedle : MonoBehaviour
     //êjÇÃÉgÉâÉbÉv
     void Start()
     {
-        gameObject.GetComponent<TrapG>().Count = 4;
-        gameObject.GetComponent<TrapG>().over_time = 2;
+        GameKeeper.TrapPopCost += 2;
+        gameObject.GetComponent<TrapG>().Count = 6;
+        gameObject.GetComponent<TrapG>().over_time = 4;
         gameObject.GetComponent<TrapG>().pre_active = false;
         gameObject.GetComponent<TrapG>().Player_Hit_Destroy = false;
+        gameObject.GetComponent<BoxCollider2D>().size = new Vector2(1, 1) * 0.95f;
     }
-
-    void ActiveTrap()
+    public void OnDestroy()
     {
-
+        GameKeeper.TrapPopCost -= 2;
     }
     //ìñÇΩÇËîªíËÇÕÇ±Ç±
-    public void OnCollisionEnter(Collision collision)
+    public void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collider.gameObject.CompareTag("Player"))
         {
             if (gameObject.GetComponent<TrapG>().ActiveTrap &&
-            collision.gameObject.GetComponent<Player_R>().muteki_tempo == 0)
+            collider.gameObject.GetComponent<Player_R>().muteki_tempo == 0)
             {
                 //éûä‘Ç…Ç»ÇÈÇ∆êjÇ™îÚÇ—èoÇ∑
-                collision.gameObject.GetComponent<Player_R>().m_Life -= 2;
-                collision.gameObject.GetComponent<Player_R>().muteki_tempo = 3;
+                collider.gameObject.GetComponent<Player_R>().m_Life -= 2;
+                collider.gameObject.GetComponent<Player_R>().muteki_tempo = 3;
                 gameObject.GetComponent<TrapG>().Hit = true;
                 //Ç±Ç±ÇÁÇ≈UIÇ…âeãøÇó^Ç¶ÇÈ
             }

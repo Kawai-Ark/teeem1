@@ -8,20 +8,23 @@ public class GameKeeper : MonoBehaviour
     public float openBPM = 120.0f;
     static public float Times = 0.0f;
     public int Game_mode = 0;
-    public static bool GameEnd = false;
-    static bool fastTime = false;
+    static public bool GameEnd = false;
+    static public bool fastTime = false;
     static public float haba = 1.0f;
     [Header("判定幅の分母(２以上推奨)")]
     public float line = 4.0f;
     static float ex_len = (60.0f / BPM) / haba;
 
-    public static float ReCount = 4.0f;
-    public static bool PoseOn = false;
+    static public float ReCount = 4.0f;
+    static public bool PoseOn = false;
 
     //private float old_time = 0.0f;
     // Start is called before the first frame update
 
-    public GameObject[] Traps;
+    public List<GameObject> Traps;
+    [Header("トラップの最大コスト")]
+    public int CostLimit = 0;
+    static public int TrapPopCost = 0;
     void Start()
     {
         BPM = openBPM;
@@ -97,7 +100,27 @@ public class GameKeeper : MonoBehaviour
             }
         }
         //トラップの自動出現
-        //Instantiate(Trap1);
+        for (int SetTC = Random.Range(0, 3); 0 < SetTC; SetTC--)
+        {
+            //コストオーバーするなら
+            if (TrapPopCost > CostLimit) break;
+            if (Traps.Count == 0) break;
+            int Gimmick_Number = Random.Range(1, Traps.Count);
+            switch (Gimmick_Number)
+            {
+                case 1:
+                case 2:
+                case 3:
+                    Instantiate(Traps[Gimmick_Number - 1]);
+                    break;
+                case 4:
+                    if (!UpUpScore.CheckOnMap) Instantiate(Traps[Gimmick_Number - 1]);
+                    break;
+                default:
+                    //基本なにも入れてない時
+                    break;
+            }
+        }
     }
     public static int TempoGet(bool Timing,bool sousa)
     {

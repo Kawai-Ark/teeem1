@@ -71,14 +71,19 @@ public class GameKeeper : MonoBehaviour
         {
             if (fastTime)
             {
+                //トラップ処理
+                if (!PoseOn) TrapKeeper();
                 fastTime = false;
                 if (ReCount > 0.0f && !Player_R.PoseChance) ReCount -= 1.0f;
             }
         }
         else fastTime = true;
+<<<<<<< HEAD
 
         //トラップ処理
         if(!PoseOn)TrapKeeper();
+=======
+>>>>>>> 2905b69a118ee49bbce7a4d6157c1aac3d839d9f
     }
     public void TrapKeeper()
     {

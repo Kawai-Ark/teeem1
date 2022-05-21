@@ -33,7 +33,7 @@ public class TrapG : MonoBehaviour
     {
         //ƒeƒ“ƒ|Œo‰ßŽž‚É‚Ì‚ÝŽÀŒø
         if (Count > 0) Count -= 1;
-        else if (Count == 0)
+        else if (Count <= 0)
         {
             if (over_time > 0) over_time -= 1;
             else if (over_time == 0) Destroy(gameObject);

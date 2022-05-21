@@ -1,37 +1,51 @@
 Using pre-set license
+<<<<<<< HEAD
 Built from '2021.1/release' branch; Version is '2021.1.4f1 (4cd64a618c1b) revision 5035594'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10 Pro; OS build 19044.1706; Version 2009; 64bit' Language: 'ja' Physical Memory: 16224 MB
+=======
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1706; Version 2009; 64bit' Language: 'ja' Physical Memory: 16229 MB
+>>>>>>> 2905b69a118ee49bbce7a4d6157c1aac3d839d9f
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Users\空大\Desktop\新しいフォルダー\2021.1.4f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/ge-mutaisyou/Kawai01
+C:/Git/teeam1/Kawai01
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 61026
 Successfully changed project path to: D:/ge-mutaisyou/Kawai01
 D:/ge-mutaisyou/Kawai01
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 308.38 ms, found 2 plugins.
+=======
+65475
+Successfully changed project path to: C:/Git/teeam1/Kawai01
+C:/Git/teeam1/Kawai01
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 21.88 ms, found 0 plugins.
+>>>>>>> 2905b69a118ee49bbce7a4d6157c1aac3d839d9f
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.1.4f1 (4cd64a618c1b)
-[Subsystems] Discovering subsystems at path C:/Users/空大/Desktop/新しいフォルダー/2021.1.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/ge-mutaisyou/Kawai01/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Git/teeam1/Kawai01/Assets
+GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
-    Vendor:   NVIDIA
-    VRAM:     5991 MB
-    Driver:   30.0.15.1179
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   25.21.14.1788
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'C:/Users/空大/Desktop/新しいフォルダー/2021.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/空大/Desktop/新しいフォルダー/2021.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/空大/Desktop/新しいフォルダー/2021.1.4f1/Editor/Data/MonoBleedingEdge/etc'
@@ -44,8 +58,26 @@ Registered in 0.006924 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 346.74 ms, found 2 plugins.
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003183 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 21.85 ms, found 0 plugins.
+>>>>>>> 2905b69a118ee49bbce7a4d6157c1aac3d839d9f
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  4.813 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
@@ -54,8 +86,22 @@ Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 271.55 ms, found 2 plugins.
+=======
+- Completed reload, in  2.308 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000981 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+>>>>>>> 2905b69a118ee49bbce7a4d6157c1aac3d839d9f
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  3.057 seconds
 Platform modules already initialized, skipping
 ========================================================================
@@ -75,4 +121,1499 @@ Received Import Request.
   path: Assets/Scenes/GlasStage.unity
   artifactKey: Guid(1fdb51812e659d64b83904e1a15f81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/GlasStage.unity using Guid(1fdb51812e659d64b83904e1a15f81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf42f78fe4041aec8dc8362cfb3e2d85') in 0.030005 seconds 
+=======
+- Completed reload, in  0.735 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1130 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.0 MB.
+System memory in use after: 60.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1571.
+Total: 1.831400 ms (FindLiveObjects: 0.121300 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.621100 ms  DeleteObjects: 0.055600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/oka/UI/DEATH.png
+  artifactKey: Guid(f54496fb8fa10f542a7bebf5345c8579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oka/UI/DEATH.png using Guid(f54496fb8fa10f542a7bebf5345c8579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8059eb710e07249444a4545ae065f9') in 0.089256 seconds
+  Import took 0.090986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/oka/UI/DANGER.png
+  artifactKey: Guid(74893b9cb0b573f4fa82666dc7ff6bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oka/UI/DANGER.png using Guid(74893b9cb0b573f4fa82666dc7ff6bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc335ab5d5788bd003c619c5178e98e1') in 0.011732 seconds
+  Import took 0.013425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/oka/UI/COUTION.png
+  artifactKey: Guid(dd6ee7029ff5abd409ab13cade61b767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oka/UI/COUTION.png using Guid(dd6ee7029ff5abd409ab13cade61b767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354755a524aba838066a6bf532d7d078') in 0.010242 seconds
+  Import took 0.012161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/oka/UI/DANGER.png
+  artifactKey: Guid(74893b9cb0b573f4fa82666dc7ff6bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oka/UI/DANGER.png using Guid(74893b9cb0b573f4fa82666dc7ff6bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc335ab5d5788bd003c619c5178e98e1') in 0.013853 seconds
+  Import took 0.015448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/oka/UI/BaseHP.prefab
+  artifactKey: Guid(17e6fb3f8aadee2438fce5bff8f6848c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oka/UI/BaseHP.prefab using Guid(17e6fb3f8aadee2438fce5bff8f6848c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ec99e657647e57a9d82630fad6b6ac') in 0.016339 seconds
+  Import took 0.018083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.019082 seconds.
+  path: Assets/Hashitani/PlayerC&GK/GameKeeper.prefab
+  artifactKey: Guid(b1af3d9bb3931964cbad8f91106aca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/GameKeeper.prefab using Guid(b1af3d9bb3931964cbad8f91106aca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4ed9575ca20d9ab7e1d3e26ecf2cf3') in 0.005642 seconds
+  Import took 0.007699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Hashitani/PlayerC&GK/R_Player.prefab
+  artifactKey: Guid(7bd389c3039670741be9b1041ddf1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/R_Player.prefab using Guid(7bd389c3039670741be9b1041ddf1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab9500d203071d2b4980d24560d0a85') in 0.003586 seconds
+  Import took 0.005077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Hashitani/PlayerC&GK/TrapA.prefab
+  artifactKey: Guid(ba3c6c75244808042a98d078f2cecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/TrapA.prefab using Guid(ba3c6c75244808042a98d078f2cecefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d1365f841727af151517402f3c5611') in 0.004531 seconds
+  Import took 0.006068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.633508 seconds.
+  path: Assets/Kawai/Danjyon
+  artifactKey: Guid(0f5f4515b1048b7499818a76444b0e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon using Guid(0f5f4515b1048b7499818a76444b0e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034250c7e4eba77db09234e5ee469fb1') in 0.002691 seconds
+  Import took 0.005224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000765 seconds.
+  path: Assets/Kawai/Danjyon
+  artifactKey: Guid(0f5f4515b1048b7499818a76444b0e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon using Guid(0f5f4515b1048b7499818a76444b0e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034250c7e4eba77db09234e5ee469fb1') in 0.002943 seconds
+  Import took 0.004646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032764 seconds.
+  path: Assets/Kawai/Danjyon/Danjyon.prefab
+  artifactKey: Guid(19c735742bb788140bec1ca61703663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Danjyon.prefab using Guid(19c735742bb788140bec1ca61703663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770812923098ab148821400ac7f0b360') in 0.004169 seconds
+  Import took 0.005782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.776915 seconds.
+  path: Assets/Kawai/Danjyon/Sonota
+  artifactKey: Guid(f42715c0c4dd8cc43986e3864867283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Sonota using Guid(f42715c0c4dd8cc43986e3864867283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715f306ef0a83cd12dc20fc661d4db57') in 0.003314 seconds
+  Import took 0.005444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063069 seconds.
+  path: Assets/Kawai/Danjyon/Sonota/Syogaibutu1.asset
+  artifactKey: Guid(2493740befa3df041a7d490c94d294ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Sonota/Syogaibutu1.asset using Guid(2493740befa3df041a7d490c94d294ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c455e9ffd16f49315debcbc4c8282bb') in 0.014328 seconds
+  Import took 0.016047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Kawai/Danjyon/Sonota/Syogaibutu2.asset
+  artifactKey: Guid(dd5f0d9c22c4bee4fbd4b22877bc01f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Sonota/Syogaibutu2.asset using Guid(dd5f0d9c22c4bee4fbd4b22877bc01f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b33941f4fdd6edcdeec1d47ff4febe5') in 0.006396 seconds
+  Import took 0.008132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Kawai/Danjyon/Sonota/Syogaibutu1.png
+  artifactKey: Guid(d6185371cb327984ab1f805dc6bce003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Sonota/Syogaibutu1.png using Guid(d6185371cb327984ab1f805dc6bce003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc82ddeace20c1267b16139eda28342') in 0.010919 seconds
+  Import took 0.012648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Kawai/Danjyon/Sonota/Syogaibutu2.png
+  artifactKey: Guid(c26f886e04f516f43bb9d21e4b2b694d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Sonota/Syogaibutu2.png using Guid(c26f886e04f516f43bb9d21e4b2b694d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cbf86e185c3c5600ef261922f20321') in 0.020521 seconds
+  Import took 0.022135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.320281 seconds.
+  path: Assets/Kawai/Danjyon/Kabe
+  artifactKey: Guid(51263b78ebca17045a4f7fb5a23b18ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe using Guid(51263b78ebca17045a4f7fb5a23b18ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39ca94e6738e5430a1d6e5a3af43f05') in 0.003505 seconds
+  Import took 0.005514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069155 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe.asset
+  artifactKey: Guid(92f5745990979904db7235da7a841dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe.asset using Guid(92f5745990979904db7235da7a841dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b0615dc7f9b58f05683a47b96625d3') in 0.006167 seconds
+  Import took 0.007855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe02.asset
+  artifactKey: Guid(8c9ed8fbe48ec1646a5b8ca0aea976c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe02.asset using Guid(8c9ed8fbe48ec1646a5b8ca0aea976c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0f948e019d7212c33c9e17b2167c23') in 0.009309 seconds
+  Import took 0.010926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe4.asset
+  artifactKey: Guid(0a843b82b3a38b545a12a1b470c8c55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe4.asset using Guid(0a843b82b3a38b545a12a1b470c8c55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbafb6bd4224258d1879f36768e54acd') in 0.008035 seconds
+  Import took 0.009880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe2.asset
+  artifactKey: Guid(075ff878b79daa3459a832593037097f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe2.asset using Guid(075ff878b79daa3459a832593037097f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a315065e599163bee439d5927853c298') in 0.008732 seconds
+  Import took 0.010525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe.png
+  artifactKey: Guid(bc66a1f6cf098894c973192813591ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe.png using Guid(bc66a1f6cf098894c973192813591ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4539fc6d665b68b06b443148c94e9e44') in 0.011061 seconds
+  Import took 0.012771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe02.png
+  artifactKey: Guid(6299c5a8e03566d4e882a39646852022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe02.png using Guid(6299c5a8e03566d4e882a39646852022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45437dec45e116ec8803c3d489ead70f') in 0.009039 seconds
+  Import took 0.010810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe01.png
+  artifactKey: Guid(5387b229bd37f5048aa0317f365dbe10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe01.png using Guid(5387b229bd37f5048aa0317f365dbe10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa0c30720ddd65bb7cede205be60e22') in 0.008723 seconds
+  Import took 0.010509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe3.png
+  artifactKey: Guid(f4d56df2ad7456f4ab6d8d9439cde778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe3.png using Guid(f4d56df2ad7456f4ab6d8d9439cde778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9b23d000086e50a23a51e2b5188373') in 0.010169 seconds
+  Import took 0.011813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe5.asset
+  artifactKey: Guid(04801789be6dae1448d90c240ed32c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe5.asset using Guid(04801789be6dae1448d90c240ed32c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669a77a7fc23f8907a59d33d0d20d17d') in 0.007199 seconds
+  Import took 0.008959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe1.png
+  artifactKey: Guid(53e76fa2395186744b9b2a988d91f447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe1.png using Guid(53e76fa2395186744b9b2a988d91f447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0de04283c7551d15753a7c1ea9657e5') in 0.010949 seconds
+  Import took 0.012614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe01.asset
+  artifactKey: Guid(dab91f21d38f93242a013c000696ce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe01.asset using Guid(dab91f21d38f93242a013c000696ce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e950740dc38133f5bc5b7e8b64b7395') in 0.008585 seconds
+  Import took 0.010293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe2.png
+  artifactKey: Guid(5bf51e49e3426e1448c8c2d94d51239c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe2.png using Guid(5bf51e49e3426e1448c8c2d94d51239c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc3c0932f8528bf3952b78d765f57dd') in 0.008678 seconds
+  Import took 0.010513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe00.asset
+  artifactKey: Guid(80530d350e6bc834a811f84a37e25081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe00.asset using Guid(80530d350e6bc834a811f84a37e25081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6e2ab2248dadfb8bb4593ab8781eb9') in 0.008909 seconds
+  Import took 0.010576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe4.png
+  artifactKey: Guid(473111ed47fda924d9b334f3e09ea90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe4.png using Guid(473111ed47fda924d9b334f3e09ea90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dded4a5c815d7ae73205e43919687d') in 0.009137 seconds
+  Import took 0.011012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe00.png
+  artifactKey: Guid(df27794a7b3f148459eba38e0d430c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe00.png using Guid(df27794a7b3f148459eba38e0d430c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ff648b0ffd29c865868a4279ae8d34') in 0.010196 seconds
+  Import took 0.011881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe1.asset
+  artifactKey: Guid(b21e4f1c1206f9c4c84902ed2ebd4895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe1.asset using Guid(b21e4f1c1206f9c4c84902ed2ebd4895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2561cdd8ab1d2ff55c39407210c94b26') in 0.006446 seconds
+  Import took 0.008182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe5.png
+  artifactKey: Guid(5b51dc01fc0433346aec77fd9eafd87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe5.png using Guid(5b51dc01fc0433346aec77fd9eafd87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c54a37915213765e1d937c051cb496') in 0.009913 seconds
+  Import took 0.011679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Kawai/Danjyon/Kabe/Kabe3.asset
+  artifactKey: Guid(d9eab6edabb598f40b417d372dedb6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Kabe/Kabe3.asset using Guid(d9eab6edabb598f40b417d372dedb6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0c04ee3b253e168ed0f599720549e6') in 0.006103 seconds
+  Import took 0.007828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.693437 seconds.
+  path: Assets/Kawai/Danjyon/Tile
+  artifactKey: Guid(6266fb752e1706f4cbb0c70413f58936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Tile using Guid(6266fb752e1706f4cbb0c70413f58936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f90e55c8f5a929c4df91e0fa49afd83') in 0.002733 seconds
+  Import took 0.004698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100544 seconds.
+  path: Assets/Kawai/Danjyon/Tile/Kabe3.asset
+  artifactKey: Guid(7115f1ec2e25d514e987de236052537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Tile/Kabe3.asset using Guid(7115f1ec2e25d514e987de236052537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4decef21ac2bb7e302ee273b6b7e83b') in 0.009827 seconds
+  Import took 0.012586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Kawai/Danjyon/Tile/Tile2.asset
+  artifactKey: Guid(4a54dca89a69f1f41b1dfee4ec994a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Tile/Tile2.asset using Guid(4a54dca89a69f1f41b1dfee4ec994a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac707e2251636b6f418213be380f162e') in 0.006375 seconds
+  Import took 0.008119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Kawai/Danjyon/Tile/Tile2.png
+  artifactKey: Guid(0f8282502546cd1449cac04fc3f7b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Tile/Tile2.png using Guid(0f8282502546cd1449cac04fc3f7b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767314f074b764aa72a22e860fccc445') in 0.008392 seconds
+  Import took 0.010426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Kawai/Danjyon/Tile/Tile1.asset
+  artifactKey: Guid(73f85f0ce08311846b4e10bb5fa63d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Tile/Tile1.asset using Guid(73f85f0ce08311846b4e10bb5fa63d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9317758a5b77ead16104073e0bd412ff') in 0.006435 seconds
+  Import took 0.008083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Kawai/Danjyon/Tile/Kabe4.asset
+  artifactKey: Guid(96d4c06f78d1cb9469e3749fb620ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Tile/Kabe4.asset using Guid(96d4c06f78d1cb9469e3749fb620ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46abcc4976700990add7ddfee59231e') in 0.007071 seconds
+  Import took 0.008715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Kawai/Danjyon/Tile/Tile1.png
+  artifactKey: Guid(fd0d445ee79e9e84ab140efeb690142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Danjyon/Tile/Tile1.png using Guid(fd0d445ee79e9e84ab140efeb690142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c576f69254831dfcf153ba9fa7a311a') in 0.009124 seconds
+  Import took 0.010802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.723864 seconds.
+  path: Assets/Kawai/BGM
+  artifactKey: Guid(8a424846faceb20449ccec3379d6ec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/BGM using Guid(8a424846faceb20449ccec3379d6ec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d3818d0934986cc6819e5f17c3b949') in 0.002590 seconds
+  Import took 0.004713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032598 seconds.
+  path: Assets/Kawai/BGM/Angular.mp3
+  artifactKey: Guid(9b1ab2b7a7e028c47ae21f6f05236997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/BGM/Angular.mp3 using Guid(9b1ab2b7a7e028c47ae21f6f05236997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e96ee1e05e747309030301e8c8da7a6') in 0.052468 seconds
+  Import took 0.054133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Kawai/BGM/MusMus-BGM-136.mp3
+  artifactKey: Guid(0db39f4099621eb4797174ab9cfb0f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/BGM/MusMus-BGM-136.mp3 using Guid(0db39f4099621eb4797174ab9cfb0f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ba5641f03f0bed6ad473be9193a204') in 0.011141 seconds
+  Import took 0.013073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Kawai/BGM/竜宮城.mp3
+  artifactKey: Guid(2e8bdcb86e93a8241bd393892f3c965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/BGM/竜宮城.mp3 using Guid(2e8bdcb86e93a8241bd393892f3c965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eadf664ce751a7d29c001ce3e944a9b') in 0.013131 seconds
+  Import took 0.014970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Kawai/BGM/MusMus-BGM-121.mp3
+  artifactKey: Guid(4a79a49a064ad094d8e36a2e37634c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/BGM/MusMus-BGM-121.mp3 using Guid(4a79a49a064ad094d8e36a2e37634c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1507441339f88d406a71432f5b7fd207') in 0.013130 seconds
+  Import took 0.015061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Kawai/BGM/MusMus-BGM-115.mp3
+  artifactKey: Guid(b8a9110e02ea3824cb5fbeb1d73b11d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/BGM/MusMus-BGM-115.mp3 using Guid(b8a9110e02ea3824cb5fbeb1d73b11d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf05a3a69fa8b6fd112ecad81909abf') in 0.009693 seconds
+  Import took 0.012016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Kawai/BGM/Miyabi_break.mp3
+  artifactKey: Guid(23b61328bc5d5e749b025c043b5d5136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/BGM/Miyabi_break.mp3 using Guid(23b61328bc5d5e749b025c043b5d5136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd297e73a0d8f65b47235bbb4ba5ae581') in 0.009496 seconds
+  Import took 0.011510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.091374 seconds.
+  path: Assets/Kawai/Glas
+  artifactKey: Guid(adc883b37b81eeb43a20879ef50a2819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas using Guid(adc883b37b81eeb43a20879ef50a2819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5326caf12665ffc608e26f578d1d32c7') in 0.002965 seconds
+  Import took 0.004786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056677 seconds.
+  path: Assets/Kawai/Glas/Glas.prefab
+  artifactKey: Guid(cc416e61e0603b84cb335012d2b84142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Glas.prefab using Guid(cc416e61e0603b84cb335012d2b84142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc29e829902e2dd11838e93dc863a57') in 0.004485 seconds
+  Import took 0.006175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.106104 seconds.
+  path: Assets/Kawai/Glas/Sonota
+  artifactKey: Guid(aefb883a25a3dab42ad0a99a2ad46500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota using Guid(aefb883a25a3dab42ad0a99a2ad46500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18891613c8566f5d9b9cdc5dfc9be8cc') in 0.002592 seconds
+  Import took 0.004736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054169 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas11.asset
+  artifactKey: Guid(095f3a40b65b5cb4696ea03f91183eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas11.asset using Guid(095f3a40b65b5cb4696ea03f91183eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed85f67fb4a6fce949fa16d06bdd70bb') in 0.006353 seconds
+  Import took 0.008068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas12.png
+  artifactKey: Guid(ce764029ea4bb184cac7965f803378c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas12.png using Guid(ce764029ea4bb184cac7965f803378c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2093c93f0573f4f6ae1863cebb41097') in 0.008775 seconds
+  Import took 0.010366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas15.asset
+  artifactKey: Guid(6667a84aa30d81846bf8e18d09128951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas15.asset using Guid(6667a84aa30d81846bf8e18d09128951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fde1172ba9adba6d43e4ecdc6f0f424') in 0.006671 seconds
+  Import took 0.008467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas17.asset
+  artifactKey: Guid(ef1839cef46a18a4d9cdd57bb936d26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas17.asset using Guid(ef1839cef46a18a4d9cdd57bb936d26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1204544c9a66d48fc93f03acb783699d') in 0.006632 seconds
+  Import took 0.008663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas14.asset
+  artifactKey: Guid(819151ff1469c4240abdab9262a0a3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas14.asset using Guid(819151ff1469c4240abdab9262a0a3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1f5e9aad95cffebc4819f0ddcc224c') in 0.006541 seconds
+  Import took 0.008262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas13.asset
+  artifactKey: Guid(568756a01e11427428b3913633f9ee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas13.asset using Guid(568756a01e11427428b3913633f9ee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3858e83eb4c880578f3d841ea3637f67') in 0.007899 seconds
+  Import took 0.009754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas15.png
+  artifactKey: Guid(81d7bb3fb6e74a840a22c43294476d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas15.png using Guid(81d7bb3fb6e74a840a22c43294476d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e37b256ec1df1267370d75736590c7') in 0.008211 seconds
+  Import took 0.009997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas16.asset
+  artifactKey: Guid(5ff23d5ff2271bf4b903bbcc16cb321b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas16.asset using Guid(5ff23d5ff2271bf4b903bbcc16cb321b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a2be9c776f76fe9d1698558869916b') in 0.012724 seconds
+  Import took 0.014475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas17.png
+  artifactKey: Guid(ecd563bad6818df42999e5b13a2810b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas17.png using Guid(ecd563bad6818df42999e5b13a2810b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2871144270e30d90665016dc2f5add') in 0.011148 seconds
+  Import took 0.012972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas11.png
+  artifactKey: Guid(735ccceaaa743604fb6ee4c1fdab8bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas11.png using Guid(735ccceaaa743604fb6ee4c1fdab8bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dac7cc51f7bf7e97c6cdf91bf2183ab') in 0.010614 seconds
+  Import took 0.012285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas14.png
+  artifactKey: Guid(2e51f0ecf44f1d942b03111ee2edfde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas14.png using Guid(2e51f0ecf44f1d942b03111ee2edfde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fd1dd02da72e81ee055d51cd033e11') in 0.007101 seconds
+  Import took 0.008710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas12.asset
+  artifactKey: Guid(6d2dbaf54710ec34e98f245287c5ddba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas12.asset using Guid(6d2dbaf54710ec34e98f245287c5ddba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c168d47a5817479c55a93f6b4d6122') in 0.006864 seconds
+  Import took 0.008559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas16.png
+  artifactKey: Guid(714985598fd3a254a80b0ee3bcea8b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas16.png using Guid(714985598fd3a254a80b0ee3bcea8b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd76eb792a4ed5feb8a69889ed87f12') in 0.009909 seconds
+  Import took 0.011707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Kawai/Glas/Sonota/Glas13.png
+  artifactKey: Guid(d5602abe43c6e6a4b8e10695b66ec80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Sonota/Glas13.png using Guid(d5602abe43c6e6a4b8e10695b66ec80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4014a6e05c3c40425a20d542ebe177b9') in 0.011794 seconds
+  Import took 0.013568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.988997 seconds.
+  path: Assets/Kawai/Glas/Tile
+  artifactKey: Guid(9637ca5797627224e81f1210591fd1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile using Guid(9637ca5797627224e81f1210591fd1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734b098632982d3b6e5933d18cf2a80b') in 0.002415 seconds
+  Import took 0.004137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051119 seconds.
+  path: Assets/Kawai/Glas/Tile/glas1.asset
+  artifactKey: Guid(8a488deecca02c746bf846a2832e7d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas1.asset using Guid(8a488deecca02c746bf846a2832e7d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6aa5a75b2514f2a42ce0b4a15c1aa81') in 0.007546 seconds
+  Import took 0.009264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Kawai/Glas/Tile/glas8.asset
+  artifactKey: Guid(fd9a41f72f05cdb4c9ff89fa890649fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas8.asset using Guid(fd9a41f72f05cdb4c9ff89fa890649fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bd1287de286c1f7df9a61b891d511b') in 0.007170 seconds
+  Import took 0.008820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Kawai/Glas/Tile/glas3.png
+  artifactKey: Guid(81328d83bed4f594ebd39944e6a04cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas3.png using Guid(81328d83bed4f594ebd39944e6a04cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4753c7ec8e21f3920281f0237b7d059') in 0.020563 seconds
+  Import took 0.022222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Kawai/Glas/Tile/glas9.png
+  artifactKey: Guid(bbfd897edca20dd4ab6339538988edfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas9.png using Guid(bbfd897edca20dd4ab6339538988edfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a10e4eeac009ceade205c09116b631') in 0.011019 seconds
+  Import took 0.012812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Kawai/Glas/Tile/glas4.png
+  artifactKey: Guid(3bd963f587949684eb04425b3263252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas4.png using Guid(3bd963f587949684eb04425b3263252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839bf7c8b463f3c78b7fab2966b84e79') in 0.008675 seconds
+  Import took 0.010527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Kawai/Glas/Tile/glas7.png
+  artifactKey: Guid(374f499a79b75ca41948004647eacd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas7.png using Guid(374f499a79b75ca41948004647eacd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952246e9370fbe4013f416c257112772') in 0.010919 seconds
+  Import took 0.012737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Kawai/Glas/Tile/glas3.asset
+  artifactKey: Guid(67ce8361d26f14b4aa566972d241df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas3.asset using Guid(67ce8361d26f14b4aa566972d241df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4500d2cb8b0a3460b28a9f2118aa4c3e') in 0.007719 seconds
+  Import took 0.009396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Kawai/Glas/Tile/glas5.png
+  artifactKey: Guid(d4c811c0ec9946840bfbe576b9bd54e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas5.png using Guid(d4c811c0ec9946840bfbe576b9bd54e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bec3678b48c6516fa56378bce0a9b0') in 0.010618 seconds
+  Import took 0.012592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Kawai/Glas/Tile/glas1.png
+  artifactKey: Guid(91a0460b4d1aad74984858cb16e975dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas1.png using Guid(91a0460b4d1aad74984858cb16e975dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27647b65acaeedd558fb89d3497acbf7') in 0.012707 seconds
+  Import took 0.014335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Kawai/Glas/Tile/glas8.png
+  artifactKey: Guid(64dd048d38e019a41bc7a85022f95533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas8.png using Guid(64dd048d38e019a41bc7a85022f95533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911a4fd5576a70e6d73915db072378b2') in 0.012967 seconds
+  Import took 0.014646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Kawai/Glas/Tile/glas9.asset
+  artifactKey: Guid(98b8d76965670ee48910ca8a338cc14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas9.asset using Guid(98b8d76965670ee48910ca8a338cc14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dde7c9609a7815fc0e624bc2a4bd5dd') in 0.007174 seconds
+  Import took 0.009000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Kawai/Glas/Tile/glas5.asset
+  artifactKey: Guid(949783aa69d6e3448bb1ba384f522283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas5.asset using Guid(949783aa69d6e3448bb1ba384f522283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b06a9533274f4765dae8c0d1219b264') in 0.007348 seconds
+  Import took 0.009029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Kawai/Glas/Tile/glas6.png
+  artifactKey: Guid(1eb09e90367b5a24f99ebaf3d912013f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas6.png using Guid(1eb09e90367b5a24f99ebaf3d912013f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bf9d953f144b45dc64267b4ee2351c') in 0.010643 seconds
+  Import took 0.012260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Kawai/Glas/Tile/glas6.asset
+  artifactKey: Guid(9962fb7001f12ce4fb86f06d81a5da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas6.asset using Guid(9962fb7001f12ce4fb86f06d81a5da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8657bf2415f248025a1c92c039888e') in 0.006152 seconds
+  Import took 0.007758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Kawai/Glas/Tile/glas2.asset
+  artifactKey: Guid(5b055610e36c0f24db30abbcc1785f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas2.asset using Guid(5b055610e36c0f24db30abbcc1785f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225237598d2ec4115aae3c11e717a142') in 0.006928 seconds
+  Import took 0.008544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Kawai/Glas/Tile/glas4.asset
+  artifactKey: Guid(f60c192a09a2bb04da4258c0218281dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas4.asset using Guid(f60c192a09a2bb04da4258c0218281dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f212a6a6637f27d1fd6e49c8999d23') in 0.006105 seconds
+  Import took 0.007734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Kawai/Glas/Tile/glas7.asset
+  artifactKey: Guid(5a95550cdf6a32b49bc9c04217fc4640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas7.asset using Guid(5a95550cdf6a32b49bc9c04217fc4640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a6cbc7225ac6792e148cf1bbf09089') in 0.009130 seconds
+  Import took 0.010904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Kawai/Glas/Tile/glas2.png
+  artifactKey: Guid(4b5bcbe4b2add6546b385f5efbf9cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Glas/Tile/glas2.png using Guid(4b5bcbe4b2add6546b385f5efbf9cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4492ab4bf07f0cccdd4bf2c504ba1f6f') in 0.011846 seconds
+  Import took 0.013553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.038772 seconds.
+  path: Assets/Kawai/Kusa
+  artifactKey: Guid(14a0c51a55e2a4f4f9ab199702b01b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Kusa using Guid(14a0c51a55e2a4f4f9ab199702b01b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7a040a8d37969841858311dc3671da') in 0.002491 seconds
+  Import took 0.004589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062885 seconds.
+  path: Assets/Kawai/Kusa/IsiTile.asset
+  artifactKey: Guid(6ba3bb5dade2b9f4b915e4f7cd09b62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Kusa/IsiTile.asset using Guid(6ba3bb5dade2b9f4b915e4f7cd09b62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7a87f9154b3764a9d955ca68dbae3d') in 0.008218 seconds
+  Import took 0.010001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Kawai/Kusa/Kussa.png
+  artifactKey: Guid(5a0a79bb34b87244f83822843e3f1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Kusa/Kussa.png using Guid(5a0a79bb34b87244f83822843e3f1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5960c1bf448f81f0cd9cec0ebdef7c1') in 0.009612 seconds
+  Import took 0.011121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Kawai/Kusa/IsiTile.png
+  artifactKey: Guid(fd5ca6c617982a84e8e603e606ded612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Kusa/IsiTile.png using Guid(fd5ca6c617982a84e8e603e606ded612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b23ec5f8cfca5b53b5fcb85f1605d38') in 0.012226 seconds
+  Import took 0.014309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Kawai/Kusa/Kussa.asset
+  artifactKey: Guid(a432f185c71fb054d80bb29019e1619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Kusa/Kussa.asset using Guid(a432f185c71fb054d80bb29019e1619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d59beb1d579d77859d51b7cb295c0f9') in 0.006557 seconds
+  Import took 0.008512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Kawai/Kusa/Kusa.prefab
+  artifactKey: Guid(769f4b1fba2f8ca4092396fc4661ed1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Kusa/Kusa.prefab using Guid(769f4b1fba2f8ca4092396fc4661ed1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368dc390db686f6a84ed884ff5c2a11a') in 0.004518 seconds
+  Import took 0.006404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004463 seconds.
+  path: Assets/Kawai/Kusa/Kussa.asset
+  artifactKey: Guid(a432f185c71fb054d80bb29019e1619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Kusa/Kussa.asset using Guid(a432f185c71fb054d80bb29019e1619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d59beb1d579d77859d51b7cb295c0f9') in 0.006967 seconds
+  Import took 0.008706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.023956 seconds.
+  path: Assets/Kawai/Magmastage
+  artifactKey: Guid(50a2a73267df077408bc4b5fa0a81529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage using Guid(50a2a73267df077408bc4b5fa0a81529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8ec988f4f63aca8c4342aabb0feb24') in 0.002831 seconds
+  Import took 0.004744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023081 seconds.
+  path: Assets/Kawai/Magmastage/Magma.prefab
+  artifactKey: Guid(f619886f762130b469b0235f997882c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Magma.prefab using Guid(f619886f762130b469b0235f997882c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bc09692606b56cc4e8c37f872e4748') in 0.004307 seconds
+  Import took 0.006207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.473458 seconds.
+  path: Assets/Kawai/Magmastage/Sonota
+  artifactKey: Guid(021cf6b30910b754c801d71a0a7aba34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota using Guid(021cf6b30910b754c801d71a0a7aba34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a1f2ba27de3e3cc6ab4e4d61129549') in 0.004067 seconds
+  Import took 0.006050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058315 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidanhidari.asset
+  artifactKey: Guid(45c2412c393e6ae49b5e169992aa5cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidanhidari.asset using Guid(45c2412c393e6ae49b5e169992aa5cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e75e4a6ae456d5b263f1117cd0f9c7') in 0.006781 seconds
+  Import took 0.008698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidankagehidari.png
+  artifactKey: Guid(311faffe7069c41409f3117b3dd2000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidankagehidari.png using Guid(311faffe7069c41409f3117b3dd2000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f600f67688566a3373d998c56c79d5') in 0.011430 seconds
+  Import took 0.013239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidanmannaka.asset
+  artifactKey: Guid(4066e6fec9ffc5b4c8fe6f2642223d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidanmannaka.asset using Guid(4066e6fec9ffc5b4c8fe6f2642223d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b56d7ac34ca8c6daf57e530ff06f635') in 0.008569 seconds
+  Import took 0.010379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidanmannaka.png
+  artifactKey: Guid(2abd283494c772647b54d083681b329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidanmannaka.png using Guid(2abd283494c772647b54d083681b329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290bcf0b075813b09f62adc2d4ecd2be') in 0.012518 seconds
+  Import took 0.014221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidanmigi.png
+  artifactKey: Guid(37832349e81c49f4ba00b44a039ca12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidanmigi.png using Guid(37832349e81c49f4ba00b44a039ca12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b85a785fa160d06c01d2d7ef72a7c56') in 0.009490 seconds
+  Import took 0.011125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidankagemigi.asset
+  artifactKey: Guid(da681b9fe74c86f489f95f4b27fa5b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidankagemigi.asset using Guid(da681b9fe74c86f489f95f4b27fa5b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ba26505952b074cdd62eac3e148874') in 0.013107 seconds
+  Import took 0.014766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidankagemigi.png
+  artifactKey: Guid(041bfa6596d2149459d5dda250064d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidankagemigi.png using Guid(041bfa6596d2149459d5dda250064d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef0ccc9c112f25ffea36acccfb682e4') in 0.011683 seconds
+  Import took 0.013429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Magma.png
+  artifactKey: Guid(a1efb2c9bae0e834fb938977f8832ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Magma.png using Guid(a1efb2c9bae0e834fb938977f8832ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae806f53dffffa19c9002a90f409fc4') in 0.016942 seconds
+  Import took 0.018734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Magma.asset
+  artifactKey: Guid(d58c941530fec78499a6896dabc90667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Magma.asset using Guid(d58c941530fec78499a6896dabc90667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34a713f0507e7d55df47548b066af98') in 0.008013 seconds
+  Import took 0.009667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidankagehidari.asset
+  artifactKey: Guid(ffedf13e78071ea4d96616304a6bdee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidankagehidari.asset using Guid(ffedf13e78071ea4d96616304a6bdee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296eedf33225ece7913c16cf00a493ae') in 0.006763 seconds
+  Import took 0.008409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidankagemannaka.asset
+  artifactKey: Guid(36fcab7e04b491f45a90f012b8623adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidankagemannaka.asset using Guid(36fcab7e04b491f45a90f012b8623adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46962a98f5fa90af78382567b4d4df10') in 0.009081 seconds
+  Import took 0.010783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidanmigi.asset
+  artifactKey: Guid(760d2c9a54a4bdb4f82b694a78b4d28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidanmigi.asset using Guid(760d2c9a54a4bdb4f82b694a78b4d28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e1f5c3da6666eca1200d7a9b943f07') in 0.006443 seconds
+  Import took 0.008345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidanhidari.png
+  artifactKey: Guid(3971aa64d5f42064188b57839b982b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidanhidari.png using Guid(3971aa64d5f42064188b57839b982b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a9b25a6c67709fe5359f1050f7682b') in 0.012622 seconds
+  Import took 0.014268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Kawai/Magmastage/Sonota/Kaidankagemannaka.png
+  artifactKey: Guid(c4730c18f6a712844bbf153999d1a68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Sonota/Kaidankagemannaka.png using Guid(c4730c18f6a712844bbf153999d1a68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bba8506b41ea45ee8324d54fd00014e') in 0.011923 seconds
+  Import took 0.013653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.078460 seconds.
+  path: Assets/Kawai/Magmastage/Tile
+  artifactKey: Guid(a618c11653f8157498ad5c9056145fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile using Guid(a618c11653f8157498ad5c9056145fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed63d0aa6fc34d840d56b1b2ee1b152') in 0.002757 seconds
+  Import took 0.004606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.091745 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika
+  artifactKey: Guid(4307bef8964f41a4dae2e2dc738a581e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika using Guid(4307bef8964f41a4dae2e2dc738a581e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5644ebf3ddece8dd6ce28f3a7304c4fe') in 0.003100 seconds
+  Import took 0.005157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051228 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/MagmaTile hidari.asset
+  artifactKey: Guid(503ac4d92333b3641929b2273035e364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/MagmaTile hidari.asset using Guid(503ac4d92333b3641929b2273035e364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1277f38d5c477fbdf79e8d32920fc85') in 0.008293 seconds
+  Import took 0.009963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/MagmaTile sita.asset
+  artifactKey: Guid(ccc4d04465980ac49a9ff11c32527850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/MagmaTile sita.asset using Guid(ccc4d04465980ac49a9ff11c32527850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf4dc027917d0b7520650325126f6ec') in 0.007132 seconds
+  Import took 0.008834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/Tikatilehidariue.png
+  artifactKey: Guid(87cbf948e1a30a944bf08cb57f6cd951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/Tikatilehidariue.png using Guid(87cbf948e1a30a944bf08cb57f6cd951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75136ad11047e8ba546d0d4ae15b3629') in 0.011977 seconds
+  Import took 0.013616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/Tikatilehidarisita.png
+  artifactKey: Guid(9d5f218a0a41a9b4a9f1b75db63e16a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/Tikatilehidarisita.png using Guid(9d5f218a0a41a9b4a9f1b75db63e16a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eefeb7513f9dd60836e7f9509742266') in 0.010912 seconds
+  Import took 0.012595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/Tikatilemigisita.asset
+  artifactKey: Guid(5f0c4f96101e5a147b8461d63de60cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/Tikatilemigisita.asset using Guid(5f0c4f96101e5a147b8461d63de60cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447cac71895416960744a142f93aff47') in 0.008653 seconds
+  Import took 0.010639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/MagmaTile ue.png
+  artifactKey: Guid(cd4efc16fb95f554191acce97271e9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/MagmaTile ue.png using Guid(cd4efc16fb95f554191acce97271e9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff74397743a1fd5916da3f779fbc880a') in 0.009645 seconds
+  Import took 0.011534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/Tikatilemigiue.asset
+  artifactKey: Guid(54c86fb9abc9dd24f9f095ce017a03e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/Tikatilemigiue.asset using Guid(54c86fb9abc9dd24f9f095ce017a03e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032e0f1a5f786034d5191442e638f051') in 0.013023 seconds
+  Import took 0.014716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/MagmaTile naka.asset
+  artifactKey: Guid(c89910271fa611d43bb24de86f36898f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/MagmaTile naka.asset using Guid(c89910271fa611d43bb24de86f36898f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba21caa2bc39e0080d61894f46a0ca1') in 0.006983 seconds
+  Import took 0.008649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/Tikatilemigiue.png
+  artifactKey: Guid(57df7218d7134ff44aeafd68403fd877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/Tikatilemigiue.png using Guid(57df7218d7134ff44aeafd68403fd877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c855e590650a83418317c8ac170a8e') in 0.014822 seconds
+  Import took 0.016487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/Tikatilehidariue.asset
+  artifactKey: Guid(cd09edafe05e4344bbafc3a249d94cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/Tikatilehidariue.asset using Guid(cd09edafe05e4344bbafc3a249d94cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b4f57cad2be958fd77d189c9641f04') in 0.007046 seconds
+  Import took 0.008793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/MagmaTile migi.png
+  artifactKey: Guid(a28ad6ba2d765974eab4a7875ae2437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/MagmaTile migi.png using Guid(a28ad6ba2d765974eab4a7875ae2437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fa91371af2814901209abf919694a3') in 0.011447 seconds
+  Import took 0.013139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/MagmaTile sita.png
+  artifactKey: Guid(dcde5d28d7ef70148b703b4eeb327ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/MagmaTile sita.png using Guid(dcde5d28d7ef70148b703b4eeb327ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af27f70b8b063d9ff124636bf6a2844') in 0.014198 seconds
+  Import took 0.016237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/MagmaTile ue.asset
+  artifactKey: Guid(dd1ba6233695ec14f8fe0771549397c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/MagmaTile ue.asset using Guid(dd1ba6233695ec14f8fe0771549397c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c21dae71ff19843f56934053a3a179b') in 0.006634 seconds
+  Import took 0.008304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/Tikatilemigisita.png
+  artifactKey: Guid(8e89b616b998c8749a82f88b112f155a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/Tikatilemigisita.png using Guid(8e89b616b998c8749a82f88b112f155a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908a1b5b9746294850024395f0bb6c2d') in 0.010664 seconds
+  Import took 0.012385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/MagmaTile migi.asset
+  artifactKey: Guid(0974f76d82744474c854acd74820a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/MagmaTile migi.asset using Guid(0974f76d82744474c854acd74820a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd64c529103176ac89cd6e218add43e3') in 0.008841 seconds
+  Import took 0.010495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/MagmaTile naka.png
+  artifactKey: Guid(08ab244f04b159645a59a988c2793f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/MagmaTile naka.png using Guid(08ab244f04b159645a59a988c2793f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f731654d37758c439347e4179300e49') in 0.009246 seconds
+  Import took 0.010977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/MagmaTile hidari.png
+  artifactKey: Guid(36688bf9c8f8e3e4f931848fc230499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/MagmaTile hidari.png using Guid(36688bf9c8f8e3e4f931848fc230499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b752a72382384f1c83048803a53c51') in 0.009959 seconds
+  Import took 0.011663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tika/Tikatilehidarisita.asset
+  artifactKey: Guid(a1c5c603976f4d645adb813ea3782432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tika/Tikatilehidarisita.asset using Guid(a1c5c603976f4d645adb813ea3782432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79308d79117ecdbc296de59d9f541139') in 0.008775 seconds
+  Import took 0.010516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.827932 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo
+  artifactKey: Guid(dca1e8519ceb5974f80b8c2dde0f631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo using Guid(dca1e8519ceb5974f80b8c2dde0f631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad10e1eb593ef4ee0d42112542486ab') in 0.002490 seconds
+  Import took 0.004156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054735 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/hidari.asset
+  artifactKey: Guid(1dd63e403987fd84d86861d493c8ee91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/hidari.asset using Guid(1dd63e403987fd84d86861d493c8ee91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be82afd272ff0d9cc4880a88ced3c94') in 0.006492 seconds
+  Import took 0.008148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilehidarisita.png
+  artifactKey: Guid(8812b50dacf66ca4fae4ecbb888e5081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilehidarisita.png using Guid(8812b50dacf66ca4fae4ecbb888e5081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f16c8d40734174712073190c2ec0d59') in 0.011045 seconds
+  Import took 0.012724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo ue.asset
+  artifactKey: Guid(f2b79650ef887d84fbdfba48a65f7816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo ue.asset using Guid(f2b79650ef887d84fbdfba48a65f7816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f9fd45a29b3e6e8d8efac71ece25ef') in 0.009203 seconds
+  Import took 0.010873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo ue.png
+  artifactKey: Guid(f53d8cf38e30b9443aa9904127aeafe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo ue.png using Guid(f53d8cf38e30b9443aa9904127aeafe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29a71d7766d718a9815047ac2ded44a') in 0.010792 seconds
+  Import took 0.012871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/MagmatileHidariue.png
+  artifactKey: Guid(ae2ff63f01c9c784db69bdca138e632b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/MagmatileHidariue.png using Guid(ae2ff63f01c9c784db69bdca138e632b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90368e3534624528da8c13c44438233e') in 0.013297 seconds
+  Import took 0.015118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/hidari.png
+  artifactKey: Guid(4e2c1879ed0c87a4fa4447dea4e21154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/hidari.png using Guid(4e2c1879ed0c87a4fa4447dea4e21154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9015c2b16908afe5a6e6f286335125fe') in 0.012390 seconds
+  Import took 0.014338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo naka.asset
+  artifactKey: Guid(6738e2df57976194abbb7bd66bc93d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo naka.asset using Guid(6738e2df57976194abbb7bd66bc93d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b0280cf5cc28537256684e8f669c25') in 0.008462 seconds
+  Import took 0.010264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilemigisita.png
+  artifactKey: Guid(b67fb571a8c14044d8326ced734308d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilemigisita.png using Guid(b67fb571a8c14044d8326ced734308d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c1674649226b5f597835cd525228cc') in 0.011099 seconds
+  Import took 0.012939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilemigiue.asset
+  artifactKey: Guid(19021f45c4924804f8f0edd589d16d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilemigiue.asset using Guid(19021f45c4924804f8f0edd589d16d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f7a791075b26953735c2a8bdbd233a') in 0.008875 seconds
+  Import took 0.010533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilehidarisita.asset
+  artifactKey: Guid(523e892af529d444aaa4ed9f8d6d6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilehidarisita.asset using Guid(523e892af529d444aaa4ed9f8d6d6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e997a8b53bd4c1d441e9028224244de2') in 0.006737 seconds
+  Import took 0.008395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo sita.asset
+  artifactKey: Guid(1f437b57828be3c418742df14222fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo sita.asset using Guid(1f437b57828be3c418742df14222fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31ab941997fbab71a9b4f9df16d3295') in 0.006390 seconds
+  Import took 0.008043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/migi.png
+  artifactKey: Guid(105cc49fa2d79454f949285e3264af6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/migi.png using Guid(105cc49fa2d79454f949285e3264af6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87424c468272b9b56a862616f948a43') in 0.012971 seconds
+  Import took 0.014674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilemigisita.asset
+  artifactKey: Guid(8a8ad0668a4bbc04288894d51841f7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilemigisita.asset using Guid(8a8ad0668a4bbc04288894d51841f7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ebc4df26bcad64c3b18254170ae133') in 0.006160 seconds
+  Import took 0.007809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilemigiue.png
+  artifactKey: Guid(602876dbfcc889647899d64889cd63d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Magmatilemigiue.png using Guid(602876dbfcc889647899d64889cd63d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff9b8b1d6fda538d35714082d7c5902') in 0.010525 seconds
+  Import took 0.012299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo naka.png
+  artifactKey: Guid(b6206d470879ea54d99c57bf5efb1e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo naka.png using Guid(b6206d470879ea54d99c57bf5efb1e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6080f6435df84a9c2d73c98f47d7d66') in 0.015412 seconds
+  Import took 0.017042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/MagmatileHidariue.asset
+  artifactKey: Guid(a297d29000b6cdf419c5339ddaa9e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/MagmatileHidariue.asset using Guid(a297d29000b6cdf419c5339ddaa9e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77207d208a63d2789526826a471f7f0') in 0.006980 seconds
+  Import took 0.008894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo sita.png
+  artifactKey: Guid(32dff579c5f05134e8eb099dcee4303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/Tizyo sita.png using Guid(32dff579c5f05134e8eb099dcee4303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c8a431530d1dd6c57b29421bb2fed0') in 0.013534 seconds
+  Import took 0.015288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Kawai/Magmastage/Tile/Tizyo/migi.asset
+  artifactKey: Guid(1a0c58cc65a1b5445808c06582bf30c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/Magmastage/Tile/Tizyo/migi.asset using Guid(1a0c58cc65a1b5445808c06582bf30c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff6e35ef4ceb164b0f21a1c0c1dfd70') in 0.008480 seconds
+  Import took 0.010462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.631745 seconds.
+  path: Assets/Kawai/MapTip
+  artifactKey: Guid(ff50cea39ef942a47b68dbf15c0f3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip using Guid(ff50cea39ef942a47b68dbf15c0f3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717c1e2cba9b1f99658be748a63fab61') in 0.003560 seconds
+  Import took 0.006055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Kawai/MapTip
+  artifactKey: Guid(ff50cea39ef942a47b68dbf15c0f3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip using Guid(ff50cea39ef942a47b68dbf15c0f3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717c1e2cba9b1f99658be748a63fab61') in 0.002296 seconds
+  Import took 0.004061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.132193 seconds.
+  path: Assets/Kawai/MapTip/Danjyon
+  artifactKey: Guid(a9b1a7f06414a6546a22992e2edb05de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon using Guid(a9b1a7f06414a6546a22992e2edb05de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed624ca12aac70c93e8c47231b2bd92') in 0.002917 seconds
+  Import took 0.004673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032539 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Danjyon.prefab
+  artifactKey: Guid(e1ebb05c13ad899439ebb2f0f735399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Danjyon.prefab using Guid(e1ebb05c13ad899439ebb2f0f735399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7951e56b5b492264134aa037bb08cb7') in 0.003628 seconds
+  Import took 0.005314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.055547 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe
+  artifactKey: Guid(85c533a9f359ede47b1e7975fda796d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe using Guid(85c533a9f359ede47b1e7975fda796d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b1016a882f9a2206872c82ab7207fb') in 0.003243 seconds
+  Import took 0.005414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047841 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe.asset
+  artifactKey: Guid(1e0ef3dc509248249af3e820bd0d1dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe.asset using Guid(1e0ef3dc509248249af3e820bd0d1dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f358c7d50ee93778c267f6e08fc71d41') in 0.005661 seconds
+  Import took 0.007312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe4.asset
+  artifactKey: Guid(ed8351ee8050a3b41b1fee8e437a332c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe4.asset using Guid(ed8351ee8050a3b41b1fee8e437a332c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd422b952fb421483af80909ad52e46') in 0.005455 seconds
+  Import took 0.007051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe7.asset
+  artifactKey: Guid(e3d674641f90a8441a9571a3894ae9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe7.asset using Guid(e3d674641f90a8441a9571a3894ae9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536f1a8dda6dbee1b55d0cad927a0408') in 0.011658 seconds
+  Import took 0.013306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe8.png
+  artifactKey: Guid(9828879eba0cbf041a2175634f71dce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe8.png using Guid(9828879eba0cbf041a2175634f71dce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e55f29f5997abdcc3dde4dcea5ad437') in 0.020792 seconds
+  Import took 0.022404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe5.asset
+  artifactKey: Guid(651267f82b147fc4db11e9822c3a4b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe5.asset using Guid(651267f82b147fc4db11e9822c3a4b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bb4570b88e8cc5e03d9f78a98f5b5f') in 0.006780 seconds
+  Import took 0.008480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe7.png
+  artifactKey: Guid(2cbaba3666c92364c9593912275ec999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe7.png using Guid(2cbaba3666c92364c9593912275ec999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c0f56001d473a20a6ca3692da8cf02') in 0.007887 seconds
+  Import took 0.009425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe01.png
+  artifactKey: Guid(4f381cbc789504648988e2cb040938a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe01.png using Guid(4f381cbc789504648988e2cb040938a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ba0564b84b4b56d842b5133e241c0b') in 0.006640 seconds
+  Import took 0.008066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe3.asset
+  artifactKey: Guid(e0add993b76ef514a821249bc3f25ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe3.asset using Guid(e0add993b76ef514a821249bc3f25ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e4680d8028fae6757ebc2e5b81e29e') in 0.005565 seconds
+  Import took 0.007067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe10.asset
+  artifactKey: Guid(7c7714dce81c43e4aa74a27b24033dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe10.asset using Guid(7c7714dce81c43e4aa74a27b24033dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404cae3a53cd657a2c51fa419553cb2c') in 0.005914 seconds
+  Import took 0.007382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe4.png
+  artifactKey: Guid(b17152e11a770c340b5da5177e9eafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe4.png using Guid(b17152e11a770c340b5da5177e9eafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e9bb1561cf25c91ad7202220c22fda') in 0.006376 seconds
+  Import took 0.007771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe9.asset
+  artifactKey: Guid(75ed08b0cd5093348a756b4f8e80478d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe9.asset using Guid(75ed08b0cd5093348a756b4f8e80478d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403e79eac95f72f35b202089bb1c0bbf') in 0.005492 seconds
+  Import took 0.006904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe3.png
+  artifactKey: Guid(b06d105f05a6da64099b73b354e1a8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe3.png using Guid(b06d105f05a6da64099b73b354e1a8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637c06631e53ce2ea80d4e7eb9643835') in 0.014272 seconds
+  Import took 0.015929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe8.asset
+  artifactKey: Guid(a936cc7eb51e9e248b8fc29de3629504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe8.asset using Guid(a936cc7eb51e9e248b8fc29de3629504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d9a30fdeb366ec457922f0932c473e') in 0.005986 seconds
+  Import took 0.007805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe.png
+  artifactKey: Guid(72f3012e5feb30e459f1bf077b3a84db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe.png using Guid(72f3012e5feb30e459f1bf077b3a84db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b6dc2d049045e267f95b2505a17b1e') in 0.007122 seconds
+  Import took 0.008779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe10.png
+  artifactKey: Guid(5bdce7708e9c42f48b5cb310d8c03b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe10.png using Guid(5bdce7708e9c42f48b5cb310d8c03b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a55d0ae5be5c35c7a50802c9806d15') in 0.010108 seconds
+  Import took 0.012079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe1.asset
+  artifactKey: Guid(37518b17a2d5b15438391ec8097ae84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe1.asset using Guid(37518b17a2d5b15438391ec8097ae84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1334896a51713b20e53aaa83f8c2ec08') in 0.006395 seconds
+  Import took 0.008290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe6.asset
+  artifactKey: Guid(281d846ddb9508f4a926a2bf92b29736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe6.asset using Guid(281d846ddb9508f4a926a2bf92b29736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6e443061a09235e2598b7d898aff74') in 0.007019 seconds
+  Import took 0.008651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe2.png
+  artifactKey: Guid(b14e66592506a6f42b005f49cb117112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe2.png using Guid(b14e66592506a6f42b005f49cb117112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04732fda11bc6c4e4bf69f11a002fed') in 0.011040 seconds
+  Import took 0.012696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe6.png
+  artifactKey: Guid(8e2a1f2c934046c45a30c1a470b5d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe6.png using Guid(8e2a1f2c934046c45a30c1a470b5d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638e333341fdd2a341928d35074c7bdb') in 0.010565 seconds
+  Import took 0.012502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe1.png
+  artifactKey: Guid(8d2d8ec1872e7ca43b39fcb74bffe44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe1.png using Guid(8d2d8ec1872e7ca43b39fcb74bffe44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bee225b3a997aa1444c738bd85e450') in 0.010079 seconds
+  Import took 0.011976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe9.png
+  artifactKey: Guid(a1bd3d7558bf33c41b3b18861bd0dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe9.png using Guid(a1bd3d7558bf33c41b3b18861bd0dd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4a3acf7386279d90fb3d6724bdc69d') in 0.013323 seconds
+  Import took 0.015163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe5.png
+  artifactKey: Guid(9be604bf301bd234183b98c36a69a5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe5.png using Guid(9be604bf301bd234183b98c36a69a5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18036b4b1836b09fba876c4c011fa64') in 0.007130 seconds
+  Import took 0.008862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe02.png
+  artifactKey: Guid(8ef7dce72f3f8394fb6627f2bb452acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe02.png using Guid(8ef7dce72f3f8394fb6627f2bb452acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0f74d45544186c82ca27c600361650') in 0.011921 seconds
+  Import took 0.013539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe00.png
+  artifactKey: Guid(15f2703e287b8e445a686cdcfb78288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe00.png using Guid(15f2703e287b8e445a686cdcfb78288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a62729fc56888ac6de2ab40d215c416') in 0.014498 seconds
+  Import took 0.016143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Kawai/MapTip/Danjyon/Kabe/Kabe2.asset
+  artifactKey: Guid(84e47697ba12ad746bfbea80e00eb5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawai/MapTip/Danjyon/Kabe/Kabe2.asset using Guid(84e47697ba12ad746bfbea80e00eb5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82992b1bb4292215ec5deec7a4c05f0e') in 0.005974 seconds
+  Import took 0.007774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.981882 seconds.
+  path: Assets/Hashitani
+  artifactKey: Guid(f84f8253b448a7340a623d80789df20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani using Guid(f84f8253b448a7340a623d80789df20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5859c3473cc9a5dbbe22fb7ca6e17a') in 0.002554 seconds
+  Import took 0.004405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 726.769587 seconds.
+  path: Assets/Scenes/GlasStage.unity
+  artifactKey: Guid(1fdb51812e659d64b83904e1a15f81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GlasStage.unity using Guid(1fdb51812e659d64b83904e1a15f81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2858d1417062912b17ee259e8d66f8bd') in 0.003995 seconds
+  Import took 0.006209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.512853 seconds.
+  path: Assets/Scenes/HashitaniSc.unity
+  artifactKey: Guid(3bde70f91626d2047a5bce9886f844ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HashitaniSc.unity using Guid(3bde70f91626d2047a5bce9886f844ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd089aa225e4e737665e6e4f5f5c4a6a') in 0.003881 seconds
+  Import took 0.006041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.935955 seconds.
+  path: Assets/Scenes/KusaStage.unity
+  artifactKey: Guid(8dfe3171b37582144b3a445722b3826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/KusaStage.unity using Guid(8dfe3171b37582144b3a445722b3826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5c7ae28c0bc6d5ac1eeb1b847f565a') in 0.003699 seconds
+  Import took 0.005329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.126310 seconds.
+  path: Assets/Scenes/MagmaStage.unity
+  artifactKey: Guid(3c8d20fa24551ad4595c796e4c585a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MagmaStage.unity using Guid(3c8d20fa24551ad4595c796e4c585a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda081e18cf48e3b10c72ce51925935a') in 0.003240 seconds
+  Import took 0.004958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.994685 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e39801ddc5398ab935eaed4245f31aa') in 0.002829 seconds
+  Import took 0.005057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.907287 seconds.
+  path: Assets/Scenes/Stage.unity
+  artifactKey: Guid(d567542f9abbf1b49942318cd5b76bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage.unity using Guid(d567542f9abbf1b49942318cd5b76bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1fd2b806eb307e4044b18f29072003') in 0.003395 seconds
+  Import took 0.005300 seconds .
+
+>>>>>>> 2905b69a118ee49bbce7a4d6157c1aac3d839d9f
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

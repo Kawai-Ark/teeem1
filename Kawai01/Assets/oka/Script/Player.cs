@@ -7,12 +7,16 @@ public class Player : MonoBehaviour
 {
     private string enemyTag = "Enemy";
 
+    int speed = 97;
+
     float a = 0;
 
     public float playerHP;
     public float playermaxHP;
 
     protected HP hpgauge;
+
+    Image bone;
 
     GameObject scoreobj;
 
@@ -26,15 +30,21 @@ public class Player : MonoBehaviour
 
         hpgauge.SetPlayer(this);
 
-        scoreobj = GameObject.Find("GameObject");
+        scoreobj = GameObject.Find("ScoreText");
 
         hpobj = GameObject.Find("HPtext");
 
+        bone = GameObject.Find("Bone").GetComponent<Image>();
+
+        bone.enabled = false;
     }
 
     void Update()
     {
-        //Vector2 pos = transform.position;
+        Vector2 pos = transform.position;
+
+        //Vector2 b_pos = bone.transform.position;
+
         a++;
         if (a == 1)
         {
@@ -47,8 +57,8 @@ public class Player : MonoBehaviour
             anim.SetBool("Left", true);
             anim.SetBool("Right", false);
             anim.SetBool("Up", false);
-            this.transform.Translate(-97, 0, 0);
-            // pos.x -= speed;
+            //this.transform.Translate(-97, 0, 0);
+             pos.x -= speed;
         }
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -57,8 +67,8 @@ public class Player : MonoBehaviour
             anim.SetBool("Right", true);
             anim.SetBool("Left", false);
             anim.SetBool("Up", false);
-            this.transform.Translate(97, 0, 0);
-            //pos.x += speed;
+           // this.transform.Translate(97, 0, 0);
+            pos.x += speed;
         }
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -67,8 +77,8 @@ public class Player : MonoBehaviour
             anim.SetBool("Left", false);
             anim.SetBool("Right", false);
             anim.SetBool("Up", true);
-            this.transform.Translate(0, 100, 0);
-            //pos.y += speed;
+           // this.transform.Translate(0, 97, 0);
+            pos.y += speed;
         }
 
         if (Input.GetKeyDown(KeyCode.DownArrow))
@@ -77,11 +87,13 @@ public class Player : MonoBehaviour
             anim.SetBool("Left", false);
             anim.SetBool("Down", true);
             anim.SetBool("Up", false);
-            this.transform.Translate(0, -100, 0);
-            // pos.y -= speed;
+            //this.transform.Translate(0, -97, 0);
+             pos.y -= speed;
         }
 
-        // transform.position = pos;
+        bone.transform.position = pos;
+
+         transform.position = pos;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -98,10 +110,12 @@ public class Player : MonoBehaviour
 
             if (playerHP <= 0)
             {
+                bone.enabled = true;
+                playerHP = 0;
                 Destroy(this.gameObject);
             }
 
-            Debug.Log(playerHP);
+            //Debug.Log(playerHP);
         }
     }
 

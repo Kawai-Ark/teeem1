@@ -13,7 +13,7 @@ public class Player_R : MonoBehaviour
     public float move_length = 1.0f;
     //リズム変数
     private bool Timing = false;
-    private int Combo = 0;
+    public int Combo = 0;
     //操作
     public int Player_nm = 0;
     public Actions testinput;
@@ -25,6 +25,7 @@ public class Player_R : MonoBehaviour
     public bool kisikaisei = false;
     public bool Keep_Life = true;
     public int muteki_tempo = 3;
+    public int StopCount = 0;
     //初期座標
 
     void Start()
@@ -49,11 +50,22 @@ public class Player_R : MonoBehaviour
         }
         else if (!GameKeeper.PoseOn)
         {
-            if (testinput.Player.Up.triggered) m_Rigidbody.position += new Vector2(0.0f, move_length);
-            else if (testinput.Player.Down.triggered) m_Rigidbody.position += new Vector2(0.0f, -move_length);
-            else if (testinput.Player.Right.triggered) m_Rigidbody.position += new Vector2(move_length, 0.0f);
-            else if (testinput.Player.Left.triggered) m_Rigidbody.position += new Vector2(-move_length, 0.0f);
-            else sousa = false;
+            if (StopCount > 0)
+            {
+                if (testinput.Player.Up.triggered ||
+                    testinput.Player.Down.triggered ||
+                    testinput.Player.Right.triggered ||
+                    testinput.Player.Left.triggered) sousa = true;
+                else sousa = false;
+            }
+            else
+            {
+                if (testinput.Player.Up.triggered) m_Rigidbody.position += new Vector2(0.0f, move_length);
+                else if (testinput.Player.Down.triggered) m_Rigidbody.position += new Vector2(0.0f, -move_length);
+                else if (testinput.Player.Right.triggered) m_Rigidbody.position += new Vector2(move_length, 0.0f);
+                else if (testinput.Player.Left.triggered) m_Rigidbody.position += new Vector2(-move_length, 0.0f);
+                else sousa = false;
+            }
         }
         else sousa = false;
         switch (GameKeeper.TempoGet(Timing, sousa))
@@ -68,7 +80,8 @@ public class Player_R : MonoBehaviour
                 //Debug.Log(Combo);
                 break;
             case 2:
-                Combo += 1;
+                if (StopCount > 0) StopCount--;
+                else Combo += 1;
                 Timing = false;
                 //Debug.Log(Combo);
                 break;
@@ -87,6 +100,10 @@ public class Player_R : MonoBehaviour
         if (GameKeeper.GameEnd || !Keep_Life) 
         {
             testinput.Disable();
+        }
+        else
+        {
+            //Comboに応じてScoreを増やす
         }
     }
     //遅れて実行されるアップデート

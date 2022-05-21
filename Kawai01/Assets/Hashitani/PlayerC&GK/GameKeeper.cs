@@ -81,12 +81,6 @@ public class GameKeeper : MonoBehaviour
             }
         }
         else fastTime = true;
-<<<<<<< HEAD
-
-        //ƒgƒ‰ƒbƒvˆ—
-        if(!PoseOn)TrapKeeper();
-=======
->>>>>>> 2905b69a118ee49bbce7a4d6157c1aac3d839d9f
     }
     public void TrapKeeper()
     {

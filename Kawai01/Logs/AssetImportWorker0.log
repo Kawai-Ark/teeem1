@@ -123,3 +123,4 @@ Received Import Request.
 Start importing Assets/oka/UI/骨.png using Guid(75738a74fbfe53c4aa6efed8783278cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aee71f126281d0f4b74aaa0fd709ce9') in 0.066564 seconds
   Import took 0.068643 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

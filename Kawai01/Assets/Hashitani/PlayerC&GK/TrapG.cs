@@ -13,14 +13,9 @@ public class TrapG : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.transform.parent = GameObject.FindGameObjectWithTag("GameKeeper").transform;
+        gameObject.transform.position = SetGimmick();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void LateUpdate()
     {
         if (Player_Hit_Destroy && Hit)
@@ -39,5 +34,36 @@ public class TrapG : MonoBehaviour
             else if (over_time == 0) Destroy(gameObject);
         }
         ActiveTrap = Count > 0 ? pre_active : !pre_active;
+    }
+    static public Vector2 SetGimmick()
+    {
+        Vector2 SetPos;
+        List<Vector2> DummyPos = new List<Vector2>();
+        for (int x = -4; x <= 4; x++)
+        {
+            for (int y = -4; y <= 4; y++)
+            {
+                DummyPos.Add(new Vector2(x, y));
+            }
+        }
+        GameObject[] Players = GameObject.FindGameObjectsWithTag("Player");
+        foreach (GameObject tPlayer in Players)
+        {
+            Vector2 PrePos = tPlayer.transform.position;
+            for (int x = -1; x <= 1; x++)
+            {
+                for (int y = -1; y <= 1; y++)
+                {
+                    DummyPos.Remove(new Vector2(PrePos.x + x, PrePos.y + y));
+                }
+            }
+        }
+        GameObject[] Traps = GameObject.FindGameObjectsWithTag("Trap");
+        foreach (GameObject Trap in Traps)
+        {
+            DummyPos.Remove(Trap.transform.position);
+        }
+        SetPos = DummyPos[Random.Range(0, DummyPos.Count)];
+        return SetPos;
     }
 }

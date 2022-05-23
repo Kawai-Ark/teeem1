@@ -67,7 +67,12 @@ public class Player_R : MonoBehaviour
                 else sousa = false;
             }
         }
-        else sousa = false;
+        else
+        {
+            if (testinput.Player.Up.triggered) GameKeeper.Select = false;
+            else if (testinput.Player.Down.triggered) GameKeeper.Select = true;
+            sousa = false;
+        }
         switch (GameKeeper.TempoGet(Timing, sousa))
         {
             //0‰e‹¿‚È‚µ

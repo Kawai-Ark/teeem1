@@ -17,6 +17,7 @@ public class GameKeeper : MonoBehaviour
 
     static public float ReCount = 4.0f;
     static public bool PoseOn = false;
+    static public bool Select = false;
 
     public List<GameObject> SetTraps;
     [Header("トラップの最大コスト")]
@@ -41,6 +42,8 @@ public class GameKeeper : MonoBehaviour
             else
             {
                 //Resultに移行
+                //結果を映す
+                //その後タイトルへ、もしくは再挑戦
             }
         }
         else
@@ -50,6 +53,7 @@ public class GameKeeper : MonoBehaviour
             {
                 if (!PoseOn)
                 {
+                    Select = false;
                     PoseOn = true;
                     ReCount = 4.0f;
                     Player_R.PoseChance = true;
@@ -61,6 +65,14 @@ public class GameKeeper : MonoBehaviour
                         PoseOn = false;
                         Player_R.PoseChance = true;
                     }
+                }
+            }
+            else
+            {
+                if (PoseOn)
+                {
+                    //再開
+                    //タイトルに戻る
                 }
             }
             haba = line;

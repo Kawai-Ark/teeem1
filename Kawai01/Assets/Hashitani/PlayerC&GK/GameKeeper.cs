@@ -15,14 +15,15 @@ public class GameKeeper : MonoBehaviour
     public float line = 4.0f;
     static float ex_len = (60.0f / BPM) / haba;
 
-    static public float ReCount = 4.0f;
     static public bool PoseOn = false;
-    static public bool Select = false;
+    static public int Select = 0;
 
     public List<GameObject> SetTraps;
     [Header("トラップの最大コスト")]
     public int CostLimit = 0;
     static public int TrapPopCost = 0;
+
+    public AudioSource audioIs;
     void Start()
     {
 
@@ -30,19 +31,26 @@ public class GameKeeper : MonoBehaviour
 
     private void Update()
     {
+        if (audioIs.clip.length == audioIs.time) GameEnd = true;
         //ゲームが終了すればロビーやタイトルに戻される
         if (GameEnd)
         {
             if (!Result)
             {
-                GameObject[] Characters = GameObject.FindGameObjectsWithTag("Player");
-                Destroy(Characters[0]);
+                GameObject[] Players = GameObject.FindGameObjectsWithTag("Player");
+                foreach (GameObject tPlayer in Players)
+                {
+                    if (!tPlayer.GetComponent<Player_R>().Keep_Life)
+                        Destroy(tPlayer);
+                }
                 Result = true;
             }
             else
             {
-                //Resultに移行
-                //結果を映す
+                //画面全体を暗転
+                //ResultScineに移行
+                //画面全体を明転
+                //結果を見せる
                 //その後タイトルへ、もしくは再挑戦
             }
         }
@@ -51,30 +59,31 @@ public class GameKeeper : MonoBehaviour
             Times += Time.deltaTime;
             if (!Player_R.PoseChance)
             {
-                if (!PoseOn)
+                if (PoseOn)
                 {
-                    Select = false;
-                    PoseOn = true;
-                    ReCount = 4.0f;
-                    Player_R.PoseChance = true;
+                    switch (Select)
+                    {
+                        //再開
+                        case 0:
+                            PoseOn = false;
+                            break;
+                        //最初から
+                        case 1:
+                            break;
+                        //タイトルへ
+                        case 2:
+                            break;
+                    }
                 }
                 else
                 {
-                    if (ReCount == 0.0f)
-                    {
-                        PoseOn = false;
-                        Player_R.PoseChance = true;
-                    }
+                    PoseOn = true;
+                    Select = 0;
                 }
+                Player_R.PoseChance = true;
             }
-            else
-            {
-                if (PoseOn)
-                {
-                    //再開
-                    //タイトルに戻る
-                }
-            }
+            if (PoseOn) audioIs.Pause();
+            else audioIs.Play();
             haba = line;
             //得点を送る
         }
@@ -93,17 +102,19 @@ public class GameKeeper : MonoBehaviour
                 break;
         }
         float ex_len = (60.0f / BPM) / haba;
-        if (60.0f / BPM > (Times % (60.0f / BPM)) + ex_len)
+        if (!Result)
         {
-            if (fastTime)
+            if (60.0f / BPM > (Times % (60.0f / BPM)) + ex_len)
             {
-                //トラップ処理
-                if (!PoseOn) TrapKeeper();
-                fastTime = false;
-                if (ReCount > 0.0f && !Player_R.PoseChance) ReCount -= 1.0f;
+                if (fastTime)
+                {
+                    //トラップ処理
+                    if (!PoseOn) TrapKeeper();
+                    fastTime = false;
+                }
             }
+            else fastTime = true;
         }
-        else fastTime = true;
     }
     public void TrapKeeper()
     {

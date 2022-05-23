@@ -206,6 +206,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &589687933 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8861632121918567179, guid: b1af3d9bb3931964cbad8f91106aca6b, type: 3}
+  m_PrefabInstance: {fileID: 782744074}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &782744074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -213,6 +218,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3524155223486885134, guid: b1af3d9bb3931964cbad8f91106aca6b, type: 3}
+      propertyPath: audioIs
+      value: 
+      objectReference: {fileID: 589687933}
     - target: {fileID: 3524155223486885134, guid: b1af3d9bb3931964cbad8f91106aca6b, type: 3}
       propertyPath: SetTraps.Array.size
       value: 4

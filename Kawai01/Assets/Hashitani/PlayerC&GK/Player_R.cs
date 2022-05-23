@@ -69,8 +69,11 @@ public class Player_R : MonoBehaviour
         }
         else
         {
-            if (testinput.Player.Up.triggered) GameKeeper.Select = false;
-            else if (testinput.Player.Down.triggered) GameKeeper.Select = true;
+            if (testinput.Player.Up.triggered)
+                GameKeeper.Select = SelectNM(GameKeeper.Select - 1, 0, 2);
+            else if (testinput.Player.Down.triggered)
+                GameKeeper.Select = SelectNM(GameKeeper.Select + 1, 0, 2);
+            //ëÄçÏÇµÇΩéûÇ…SEÇ∆Ç©Ç»
             sousa = false;
         }
         switch (GameKeeper.TempoGet(Timing, sousa))
@@ -125,5 +128,11 @@ public class Player_R : MonoBehaviour
         if (m_Rigidbody.position.y < up_down * move_length) v4 += new Vector2(0.0f, move_length);
         if (m_Rigidbody.position.y > -up_down * move_length) v4 -= new Vector2(0.0f, move_length);
         m_Rigidbody.position += v4;
+    }
+
+    public int SelectNM(int BD,int under,int top)
+    {
+        BD = BD >= under ? (BD <= top ? BD : under) : top;
+        return BD;
     }
 }

@@ -43,7 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c677cd18d6b2564c86467cab911a2f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openBPM: 120
   Game_mode: 0
   line: 4
-  Traps: []
+  SetTraps:
+  - {fileID: 7000261358688351838, guid: ba3c6c75244808042a98d078f2cecefd, type: 3}
+  - {fileID: 4540657220682833431, guid: 6e750bb2c5cc46145a5156a5172026b2, type: 3}
+  - {fileID: 8314132650474395863, guid: 3aa27c05ffc1e5b4a8bf4d5c69c7a121, type: 3}
+  - {fileID: 1815897645075469807, guid: 018681d69e1a3214c8899f5bfa63279b, type: 3}
+  CostLimit: 20

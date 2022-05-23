@@ -8,6 +8,7 @@ public class GameKeeper : MonoBehaviour
     static public float Times = 0.0f;
     public int Game_mode = 0;
     static public bool GameEnd = false;
+    public bool Result = false;
     static public bool fastTime = false;
     static public float haba = 1.0f;
     [Header("判定幅の分母(２以上推奨)")]
@@ -17,10 +18,7 @@ public class GameKeeper : MonoBehaviour
     static public float ReCount = 4.0f;
     static public bool PoseOn = false;
 
-    //private float old_time = 0.0f;
-    // Start is called before the first frame update
-
-    public List<GameObject> Traps;
+    public List<GameObject> SetTraps;
     [Header("トラップの最大コスト")]
     public int CostLimit = 0;
     static public int TrapPopCost = 0;
@@ -32,29 +30,42 @@ public class GameKeeper : MonoBehaviour
     private void Update()
     {
         //ゲームが終了すればロビーやタイトルに戻される
-        Times += Time.deltaTime;
-        if (!Player_R.PoseChance)
+        if (GameEnd)
         {
-            if (!PoseOn)
+            if (!Result)
             {
-                PoseOn = true;
-                ReCount = 4.0f;
-                Player_R.PoseChance = true;
+                GameObject[] Characters = GameObject.FindGameObjectsWithTag("Player");
+                Destroy(Characters[0]);
+                Result = true;
             }
             else
             {
-                if (ReCount == 0.0f)
-                {
-                    PoseOn = false;
-                    Player_R.PoseChance = true;
-                }
-                
+                //Resultに移行
             }
         }
-        haba = line;
-        //トラップをランダムで設置する
-        //トラップはプレイヤーからある程度離れた位置に出現
-        //トラップに出現上限を付ける
+        else
+        {
+            Times += Time.deltaTime;
+            if (!Player_R.PoseChance)
+            {
+                if (!PoseOn)
+                {
+                    PoseOn = true;
+                    ReCount = 4.0f;
+                    Player_R.PoseChance = true;
+                }
+                else
+                {
+                    if (ReCount == 0.0f)
+                    {
+                        PoseOn = false;
+                        Player_R.PoseChance = true;
+                    }
+                }
+            }
+            haba = line;
+            //得点を送る
+        }
     }
     private void LateUpdate()
     {
@@ -81,48 +92,39 @@ public class GameKeeper : MonoBehaviour
             }
         }
         else fastTime = true;
-<<<<<<< HEAD
-
-        //トラップ処理
-        if(!PoseOn)TrapKeeper();
-=======
->>>>>>> 2905b69a118ee49bbce7a4d6157c1aac3d839d9f
     }
     public void TrapKeeper()
     {
         //トラップの一斉処理
-        if (fastTime)
+        GameObject[] Players = GameObject.FindGameObjectsWithTag("Player");
+        foreach (GameObject tPlayer in Players)
         {
-            GameObject[] Players = GameObject.FindGameObjectsWithTag("Player");
-            foreach (GameObject tPlayer in Players)
-            {
-                //カウントを進める
-                if (tPlayer.GetComponent<Player_R>().muteki_tempo > 0)
-                    tPlayer.GetComponent<Player_R>().muteki_tempo -= 1;
-            }
-            GameObject[] Traps = GameObject.FindGameObjectsWithTag("Trap");
-            foreach (GameObject Trap in Traps)
-            {
-                //カウントを進める
-                Trap.GetComponent<TrapG>().TrapMoves();
-            }
+            //カウントを進める
+            if (tPlayer.GetComponent<Player_R>().muteki_tempo > 0)
+                tPlayer.GetComponent<Player_R>().muteki_tempo -= 1;
+        }
+        GameObject[] Traps = GameObject.FindGameObjectsWithTag("Trap");
+        foreach (GameObject Trap in Traps)
+        {
+            //カウントを進める
+            Trap.GetComponent<TrapG>().TrapMoves();
         }
         //トラップの自動出現
         for (int SetTC = Random.Range(0, 3); 0 < SetTC; SetTC--)
         {
             //コストオーバーするなら
             if (TrapPopCost > CostLimit) break;
-            if (Traps.Count == 0) break;
-            int Gimmick_Number = Random.Range(1, Traps.Count);
+            if (SetTraps.Count == 0) break;
+            int Gimmick_Number = Random.Range(1, SetTraps.Count);
             switch (Gimmick_Number)
             {
                 case 1:
                 case 2:
                 case 3:
-                    Instantiate(Traps[Gimmick_Number - 1]);
+                    Instantiate(SetTraps[Gimmick_Number - 1]);
                     break;
                 case 4:
-                    if (!UpUpScore.CheckOnMap) Instantiate(Traps[Gimmick_Number - 1]);
+                    if (!UpUpScore.CheckOnMap) Instantiate(SetTraps[Gimmick_Number - 1]);
                     break;
                 default:
                     //基本なにも入れてない時

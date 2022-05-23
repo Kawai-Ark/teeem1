@@ -17,6 +17,7 @@ public class GameKeeper : MonoBehaviour
 
     static public bool PoseOn = false;
     static public int Select = 0;
+    static public bool Selected = false;
 
     public List<GameObject> SetTraps;
     [Header("トラップの最大コスト")]
@@ -48,6 +49,7 @@ public class GameKeeper : MonoBehaviour
             else
             {
                 //画面全体を暗転
+                gameObject.GetComponent<FadeController>().isFadeOut = true;
                 //ResultScineに移行
                 //画面全体を明転
                 //結果を見せる
@@ -61,24 +63,34 @@ public class GameKeeper : MonoBehaviour
             {
                 if (PoseOn)
                 {
-                    switch (Select)
+                    if (Selected)
                     {
-                        //再開
-                        case 0:
-                            PoseOn = false;
-                            break;
-                        //最初から
-                        case 1:
-                            break;
-                        //タイトルへ
-                        case 2:
-                            break;
+                        switch (Select)
+                        {
+                            //再開
+                            case 0:
+                                PoseOn = false;
+                                break;
+                            //最初から
+                            case 1:
+                                gameObject.GetComponent<FadeController>().isFadeOut = true;
+                                break;
+                            //タイトルへ
+                            case 2:
+                                gameObject.GetComponent<FadeController>().isFadeOut = true;
+                                break;
+                        }
+                    }
+                    else
+                    {
+                        Selected = true;
                     }
                 }
                 else
                 {
                     PoseOn = true;
                     Select = 0;
+                    Selected = false;
                 }
                 Player_R.PoseChance = true;
             }
@@ -86,34 +98,35 @@ public class GameKeeper : MonoBehaviour
             else audioIs.Play();
             haba = line;
             //得点を送る
-        }
-    }
-    private void LateUpdate()
-    {
-        GameKeeper.ex_len = (60.0f / BPM) / haba;
-        //最終処理
-        switch (Game_mode)
-        {
-            case 0:
-                SoloMode.Game();
-                break;
-            case 1:
-                PvP_Mode.Game();
-                break;
-        }
-        float ex_len = (60.0f / BPM) / haba;
-        if (!Result)
-        {
-            if (60.0f / BPM > (Times % (60.0f / BPM)) + ex_len)
+
+            if (!PoseOn)
             {
-                if (fastTime)
+                GameKeeper.ex_len = (60.0f / BPM) / haba;
+                //最終処理
+                switch (Game_mode)
                 {
-                    //トラップ処理
-                    if (!PoseOn) TrapKeeper();
-                    fastTime = false;
+                    case 0:
+                        SoloMode.Game();
+                        break;
+                    case 1:
+                        PvP_Mode.Game();
+                        break;
+                }
+                float ex_len = (60.0f / BPM) / haba;
+                if (!Result)
+                {
+                    if (60.0f / BPM > (Times % (60.0f / BPM)) + ex_len)
+                    {
+                        if (fastTime)
+                        {
+                            //トラップ処理
+                            if (!PoseOn) TrapKeeper();
+                            fastTime = false;
+                        }
+                    }
+                    else fastTime = true;
                 }
             }
-            else fastTime = true;
         }
     }
     public void TrapKeeper()

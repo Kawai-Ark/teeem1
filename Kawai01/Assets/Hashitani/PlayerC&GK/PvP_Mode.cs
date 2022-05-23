@@ -14,26 +14,15 @@ public class PvP_Mode : MonoBehaviour
     public static void Game()
     {
         //どちらが勝ったか
-        GameObject[] Characters = GameObject.FindGameObjectsWithTag("Player");
-        if (Characters[0].GetComponent<Player_R>().m_Life <= 0)
-            Characters[0].GetComponent<Player_R>().Keep_Life = false;
-        if (Characters[1].GetComponent<Player_R>().m_Life <= 0)
-            Characters[1].GetComponent<Player_R>().Keep_Life = false;
-        Characters[0].GetComponent<Player_R>().Sousa();
-        Characters[1].GetComponent<Player_R>().Sousa();
-
-        if (!Characters[0].GetComponent<Player_R>().Keep_Life&&
-            !Characters[1].GetComponent<Player_R>().Keep_Life)
+        GameObject[] Players = GameObject.FindGameObjectsWithTag("Player");
+        foreach (GameObject tPlayer in Players)
         {
-            //両方が同時に倒れた場合
-        }
-        else if (!Characters[0].GetComponent<Player_R>().Keep_Life)
-        {
-            //プレイヤー1が倒れた場合
-        }
-        else if (!Characters[1].GetComponent<Player_R>().Keep_Life)
-        {
-            //プレイヤー2が倒れた場合
+            if (tPlayer.GetComponent<Player_R>().m_Life <= 0)
+            {
+                tPlayer.GetComponent<Player_R>().Keep_Life = false;
+                GameKeeper.GameEnd = true;
+            }
+            else tPlayer.GetComponent<Player_R>().Sousa();
         }
     }
 }

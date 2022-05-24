@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
 
     Image bone;
 
+    Image player_angel;
+
     GameObject scoreobj;
 
     GameObject hpobj;
@@ -36,15 +38,17 @@ public class Player : MonoBehaviour
 
         bone = GameObject.Find("Bone").GetComponent<Image>();
 
+        player_angel = GameObject.Find("player angel").GetComponent<Image>();
+
+        player_angel.enabled = false;
+
         bone.enabled = false;
     }
 
     void Update()
     {
         Vector2 pos = transform.position;
-
-        //Vector2 b_pos = bone.transform.position;
-
+        
         a++;
         if (a == 1)
         {
@@ -93,15 +97,15 @@ public class Player : MonoBehaviour
 
         bone.transform.position = pos;
 
-         transform.position = pos;
+        player_angel.transform.position = pos;
+   
+        transform.position = pos;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.collider.tag == enemyTag)
         {
-
             Damage(100);
 
             scoreobj.GetComponent<ScoreText>().TakeScore();
@@ -111,10 +115,10 @@ public class Player : MonoBehaviour
             if (playerHP <= 0)
             {
                 bone.enabled = true;
+                player_angel.enabled = true;
                 playerHP = 0;
                 Destroy(this.gameObject);
             }
-
             //Debug.Log(playerHP);
         }
     }

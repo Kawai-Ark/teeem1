@@ -3,9 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Charactor
-  - Trap
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -42,7 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Charactor
-    uniqueID: 375699787
     locked: 0

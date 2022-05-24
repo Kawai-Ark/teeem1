@@ -836,3 +836,29 @@ System memory in use after: 148.0 MB.
 Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4583.
 Total: 5.704700 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.170900 ms MarkObjects: 5.186300 ms  DeleteObjects: 0.031500 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009909 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.1 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4587.
+Total: 6.084400 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.159000 ms MarkObjects: 5.586800 ms  DeleteObjects: 0.025600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1219.828167 seconds.
+  path: Assets/Hashitani/PlayerC&GK/GameKeeper.prefab
+  artifactKey: Guid(b1af3d9bb3931964cbad8f91106aca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hashitani/PlayerC&GK/GameKeeper.prefab using Guid(b1af3d9bb3931964cbad8f91106aca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8407581b549da49391fee668474e26') in 0.036985 seconds 

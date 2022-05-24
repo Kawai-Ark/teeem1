@@ -8,9 +8,7 @@ public class HP : MonoBehaviour
     public Image image;
 
     private Player player;
-    
      
-
     void Start()
     {
         

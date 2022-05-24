@@ -48,7 +48,7 @@ public class TrapShot : MonoBehaviour
         }
     }
     //“–‚½‚è”»’è‚Í‚±‚±
-    public void OnTriggerEnter2D(Collider2D collider)
+    public void OnTriggerStay2D(Collider2D collider)
     {
         if (collider.gameObject.CompareTag("Player"))
         {
@@ -59,7 +59,6 @@ public class TrapShot : MonoBehaviour
                 collider.gameObject.GetComponent<Player_R>().muteki_tempo = 3;
                 gameObject.GetComponent<TrapG>().Hit = true;
                 //‚±‚±‚ç‚ÅUI‚É‰e‹¿‚ð—^‚¦‚é
-                Debug.Log(collider.gameObject.GetComponent<Player_R>().m_Life);
             }
         }
     }

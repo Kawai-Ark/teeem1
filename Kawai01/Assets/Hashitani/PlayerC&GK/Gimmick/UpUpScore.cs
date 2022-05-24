@@ -29,7 +29,7 @@ public class UpUpScore : MonoBehaviour
         CheckOnMap = false;
     }
     //“–‚½‚è”»’è‚Í‚±‚±
-    public void OnTriggerEnter2D(Collider2D collider)
+    public void OnTriggerStay2D(Collider2D collider)
     {
         if (collider.gameObject.CompareTag("Player"))
         {

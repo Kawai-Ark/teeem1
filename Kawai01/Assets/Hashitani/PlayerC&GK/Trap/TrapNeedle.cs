@@ -12,6 +12,7 @@ public class TrapNeedle : MonoBehaviour
         gameObject.GetComponent<TrapG>().over_time = 2;
         gameObject.GetComponent<TrapG>().pre_active = false;
         gameObject.GetComponent<TrapG>().Player_Hit_Destroy = false;
+        gameObject.GetComponent<BoxCollider2D>().size = new Vector2(1, 1) * 0.95f;
     }
 
     void ActiveTrap()
@@ -19,7 +20,7 @@ public class TrapNeedle : MonoBehaviour
 
     }
     //“–‚½‚è”»’è‚Í‚±‚±
-    public void OnTriggerEnter2D(Collider2D collider)
+    public void OnTriggerStay2D(Collider2D collider)
     {
         if (collider.gameObject.CompareTag("Player"))
         {

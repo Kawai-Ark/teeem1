@@ -91,3 +91,4 @@ Received Import Request.
 Start importing Assets/Hashitani/PlayerC&GK/R_Player.prefab using Guid(7bd389c3039670741be9b1041ddf1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5495e84a91e2010c5b8548845ee1a1b') in 0.056802 seconds
   Import took 0.058705 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

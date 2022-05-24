@@ -69,10 +69,13 @@ public class Player_R : MonoBehaviour
         }
         else
         {
-            if (testinput.Player.Up.triggered)
-                GameKeeper.Select = SelectNM(GameKeeper.Select - 1, 0, 2);
-            else if (testinput.Player.Down.triggered)
-                GameKeeper.Select = SelectNM(GameKeeper.Select + 1, 0, 2);
+            if (GameKeeper.Selected)
+            {
+                if (testinput.Player.Up.triggered)
+                    GameKeeper.Select = SelectNM(GameKeeper.Select - 1, 0, 2);
+                else if (testinput.Player.Down.triggered)
+                    GameKeeper.Select = SelectNM(GameKeeper.Select + 1, 0, 2);
+            }
             //ëÄçÏÇµÇΩéûÇ…SEÇ∆Ç©Ç»
             sousa = false;
         }

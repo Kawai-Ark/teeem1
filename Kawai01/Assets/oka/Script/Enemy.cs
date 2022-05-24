@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
-    public float speed = 0.01f;
+    public float speed;
 
     private string playerTag = "Player";
 
@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
     {
         Vector2 pos = transform.position;
 
-        pos.x += speed;
+        pos.x += 1;
 
         transform.position = pos;
 

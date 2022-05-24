@@ -7,10 +7,6 @@ public class HPText : MonoBehaviour
 {
     int hp = 100;
 
-    int cocnt = 0;
-
-    int dacnt = 0;
-
     public Text hptext;
 
     Image coution;
@@ -19,7 +15,6 @@ public class HPText : MonoBehaviour
 
     void Start()
     {
-
         hptext.color = new Color(0.0f, 1.0f, 0.0f, 1.0f);
         coution = GameObject.Find("COUTION").GetComponent<Image>();
         coution.enabled = false;
@@ -73,43 +68,6 @@ public class HPText : MonoBehaviour
 
     void Update()
     {
-        if(hp <= 50 && hp > 20)
-        {
-            cocnt++;
-
-            if (cocnt <= 60 * 10)
-            {
-                coution.enabled = true;
-            }
-            else
-            {
-                coution.enabled = false;
-                if (cocnt >= 60 * 24)
-                {
-                    cocnt = 0;
-                }
-            }
-        }
-
-        if (hp <= 20 && hp > 0)
-        {
-            cocnt = 0;
-            dacnt++;
-
-            if (dacnt <= 60 * 2)
-            {
-                danger.enabled = true;
-            }
-            else
-            {
-                danger.enabled = false;
-                if (dacnt >= 60 * 4)
-                {
-                    dacnt = 0;
-                }
-            }
-        }
-
         hptext.text = hp.ToString();
     }
 }

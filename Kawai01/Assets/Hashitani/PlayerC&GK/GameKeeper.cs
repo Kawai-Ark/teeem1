@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameKeeper : MonoBehaviour
 {
     static public float BPM = 120.0f;
+    public float inputBPM = 120.0f;
     static public float Times = 0.0f;
     public int Game_mode = 0;
     static public bool GameEnd = false;
@@ -27,7 +28,7 @@ public class GameKeeper : MonoBehaviour
     public AudioSource audioIs;
     void Start()
     {
-
+        BPM = inputBPM;
     }
 
     private void Update()
